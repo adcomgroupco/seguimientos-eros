@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Seguimiento de presupuesto y consumo de Baloto, Megaloto, La Salle, UPB y Corpas.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f4f4f1">
+  <title>Seguimientos de presupuesto</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/adcom.css">
+  <link rel="stylesheet" href="assets/css/master.css">
+  <link rel="stylesheet" href="assets/css/seguimiento.css">
+  <script defer src="assets/js/adcom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="data/hoja_baloto.js"></script>
+  <script src="data/hoja_megaloto.js"></script>
+  <script src="data/hoja_lasalle.js"></script>
+  <script src="data/hoja_upb.js"></script>
+  <script src="data/hoja_corpas.js"></script>
+  <script src="data/consumo_plataformas.js"></script>
+  <script src="assets/js/hoja.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#top">Ir al estado de las cuentas</a>
+
+<header class="masthead" data-suelo="tinta">
+  <a class="wordmark" href="index.html"><i></i>Seguimientos <span>ADCOM</span></a>
+  <nav aria-label="Secciones">
+    <a href="#estado">Estado</a>
+    <a href="#cuentas">Seguimientos</a>
+  </nav>
+  <span class="stamp" id="stamp">—</span>
+</header>
+
+<main id="top">
+
+<section class="hero" data-suelo="tinta">
+ <div class="opening wrap">
+  <h1>Presupuesto y <em>consumo</em></h1>
+  <p class="lede">Cómo va cada cuenta frente a su presupuesto del mes, con la alerta que más pesa. Se lee en vivo de la hoja de seguimiento y se cruza con el consumo real de Meta, Google Ads y TikTok.</p>
+  <nav class="categorias" aria-label="Estado de las cuentas" id="conteo">
+    <a href="#estado">Revisar <b>·</b></a>
+    <a href="#estado">Atención <b>·</b></a>
+    <a href="#estado">En ritmo <b>·</b></a>
+  </nav>
+ </div>
+</section>
+
+<div class="franja" data-suelo="tinta">
+<section class="grupo wrap" id="estado">
+  <div class="grupo-head">
+    <h2>Estado de las cuentas</h2>
+    <p id="estado-sub">Mes en curso, a la fecha de corte de cada pestaña.</p>
+  </div>
+  <div class="estado-wrap">
+    <table class="estado">
+      <thead><tr>
+        <th>Cuenta</th><th>Estado</th><th class="r">Presupuesto</th><th class="r">Consumo</th><th>Avance</th><th class="r">Pacing</th><th class="r">Sin mapear</th><th>Principal alerta</th><th></th>
+      </tr></thead>
+      <tbody id="estado-body"><tr><td colspan="9" class="cargando">Leyendo la hoja de seguimiento…</td></tr></tbody>
+    </table>
+  </div>
+</section>
+</div>
+
+<section class="grupo wrap" id="cuentas">
+  <div class="grupo-head">
+    <h2>Seguimientos</h2>
+    <p>Un seguimiento por cuenta: resumen del mes, alertas, medios, campañas e histórico.</p>
+  </div>
+  <div class="resumen-cuentas" id="fichas"></div>
+</section>
+
+<section class="colophon wrap">
+  <dl>
+    <dt>Presupuesto</dt><dd>Hoja de seguimiento de presupuesto, una pestaña por cuenta. Si la hoja no responde se usa la última copia guardada.</dd>
+    <dt>Consumo real</dt><dd id="api-dd">APIs de Meta, Google Ads y TikTok.</dd>
+    <dt>Actualizar</dt><dd>En Meta-Ads-CLI: <code>python tools/update_seguimientos.py</code>, y luego subir los cambios con GitHub Desktop.</dd>
+    <dt>Ritmo</dt><dd>Pacing = consumo ÷ esperado a la fecha. Verde ±10%, ámbar ±25%, rojo fuera de eso.</dd>
+  </dl>
+</section>
+
+</main>
+
+<footer class="footer">
+  <span>Seguimientos · ADCOM</span>
+  <span>Colombia y Paraguay</span>
+</footer>
+
+<script>
+(async () => {
+  const S = window.SEG, {esc, fP, div, pace, paceCol, mesLbl, fDate} = S;
+  const ORDEN = ['baloto', 'megaloto', 'lasalle', 'upb', 'corpas'];
+  const datos = await Promise.all(ORDEN.map(k => S.leer(k).then(D => ({D, A: S.alertas(D)}))));
+
+  const pbar = T => `<div class="pbar" title="Consumo ${fP(T.pc)} · esperado ${fP(div(T.esp, T.ppto))}"><i style="width:${Math.min(T.pc || 0, 1) * 100}%;background:${paceCol(T.pace)}"></i><b style="left:${Math.min(div(T.esp, T.ppto) || 0, 1) * 100}%"></b></div>`;
+  const sevCls = s => s >= 3 ? 'p-neg' : s === 2 ? 'p-mid' : 'p-pos';
+  // la alerta principal es la de mayor severidad que no sea de lectura de la hoja
+  const principal = A => A.lista.find(a => a.tipo !== 'Hoja sin respuesta') || A.lista[0];
+  const url = k => `seguimiento-${k}.html`;
+  // consumo en plataforma de campañas que no están en la hoja
+  const sinMap = (A, F, moneda) => {
+    const X = A.cruce; if (!X) return '<span class="t-mute">—</span>';
+    if (X.sinMap <= S.umbral(moneda)) return '<span class="pill p-pos">Todo mapeado</span>';
+    return `<span class="pill ${X.sinMap > X.total * 0.02 ? 'p-neg' : 'p-mid'}">${F.corto(X.sinMap)}</span><br><small class="t-mute">${fP(div(X.sinMap, X.total))} · ${X.sinMapear.length} camp.</small>`;
+  };
+
+  document.getElementById('estado-body').innerHTML = datos.map(({D, A}) => {
+    const F = S.fmt(D.cfg.moneda), T = A.T, p = principal(A), resto = A.lista.length - 1;
+    return `<tr class="fila" data-href="${url(D.key)}">
+      <td class="cuenta"><b>${esc(D.cfg.nombre)}</b><small>${esc(mesLbl(A.mes))} · corte ${fDate(D.corte)}${D.fuente === 'vivo' ? '' : ' · copia'}</small></td>
+      <td><span class="pill ${A.estado.cls}">${A.estado.txt}</span></td>
+      <td class="r">${F.corto(T.ppto)}</td>
+      <td class="r">${F.corto(T.cons)}</td>
+      <td>${fP(T.pc)} del presupuesto${pbar(T)}</td>
+      <td class="r"><span class="pill ${pace(T.pace)}">${fP(T.pace)}</span></td>
+      <td class="r">${sinMap(A, F, D.cfg.moneda)}</td>
+      <td><div class="alerta-main"><span class="pill ${sevCls(p.sev)}">${esc(p.tipo)}</span><span class="txt">${esc(p.txt)}</span>${resto > 0 ? `<em class="mas">+${resto} ${resto === 1 ? 'alerta más' : 'alertas más'}</em>` : ''}</div></td>
+      <td><a class="ir" href="${url(D.key)}">Ver →</a></td></tr>`;
+  }).join('');
+  document.querySelectorAll('tr.fila').forEach(r => r.onclick = e => { if (!e.target.closest('a')) location.href = r.dataset.href });
+
+  document.getElementById('fichas').innerHTML = datos.map(({D, A}) => {
+    const F = S.fmt(D.cfg.moneda), T = A.T;
+    return `<a class="card ficha" href="${url(D.key)}">
+      <span class="ficha-h"><svg class="ico ico-lg" aria-hidden="true"><use href="#i-tabla"></use></svg><span class="pill ${A.estado.cls}">${A.estado.txt}</span></span>
+      <h3>${esc(D.cfg.nombre)}</h3>
+      <p>${esc(D.cfg.sub)} · ${D.cfg.moneda}</p>
+      <div class="cifras"><span><small>Presupuesto ${esc(mesLbl(A.mes).toLowerCase())}</small><b>${F.corto(T.ppto)}</b></span><span><small>Consumo</small><b>${F.corto(T.cons)}</b></span>
+        <span><small>Esperado al ${fDate(D.corte)}</small><b>${F.corto(T.esp)}</b></span><span><small>Pacing</small><b>${fP(T.pace)}</b></span>
+        <span><small>Mapeado en la hoja</small><b>${A.cruce ? fP(A.cruce.pc) : '—'}</b></span><span><small>Sin mapear</small><b>${A.cruce ? F.corto(A.cruce.sinMap) : '—'}</b></span></div>
+      <ul>${A.lista.slice(0, 3).map(a => `<li class="s${a.sev}">${esc(a.tipo)}</li>`).join('')}</ul>
+    </a>`;
+  }).join('');
+
+  const n = s => datos.filter(x => x.A.estado.txt === s).length;
+  document.getElementById('conteo').innerHTML = ['Revisar', 'Atención', 'En ritmo'].map(s => `<a href="#estado">${s} <b>${n(s)}</b></a>`).join('');
+  const corte = datos.map(x => x.D.corte).sort()[0];
+  document.getElementById('stamp').textContent = 'Corte ' + fDate(corte) + '/' + corte.slice(0, 4);
+  const api = window.SPEND_DATA;
+  if (api) document.getElementById('api-dd').textContent = `APIs de Meta, Google Ads y TikTok, consultadas el ${fDate(api.generated_at.slice(0, 10))}/${api.generated_at.slice(0, 4)} con datos hasta el ${fDate(api.until)}.`;
+  const vivo = datos.every(x => x.D.fuente === 'vivo');
+  document.getElementById('estado-sub').textContent = `Mes en curso, a la fecha de corte de cada pestaña. ${vivo ? 'Hoja leída en vivo.' : 'Alguna pestaña no respondió y se muestra su copia guardada.'}`;
+})();
+</script>
+</body>
+</html>
