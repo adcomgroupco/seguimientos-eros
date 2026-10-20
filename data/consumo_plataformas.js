@@ -1,5 +1,5 @@
 window.SPEND_DATA = {
- "generated_at": "2026-10-20T05:30",
+ "generated_at": "2026-10-20T05:42",
  "since": "2025-09-01",
  "until": "2026-10-20",
  "clients": {
@@ -156,9 +156,9 @@ window.SPEND_DATA = {
      "google": 33438058.4
     },
     "2026-10": {
-     "meta": 52105052.0,
-     "tiktok": 46266419.62,
-     "google": 67760580.73
+     "meta": 52107923.0,
+     "tiktok": 46331883.77,
+     "google": 67760658.24
     }
    },
    "campaigns": {
@@ -1327,19 +1327,19 @@ window.SPEND_DATA = {
       "google",
       "23555995864",
       "adcom_baloto_gg_traf_pmax_trafico_traf_googleads",
-      47832426.01
+      47832503.52
      ],
      [
       "tiktok",
       "1856779037881585",
       "adcom_baloto_tiktok_acq_conversion-registros",
-      31541650.16
+      31601472.27
      ],
      [
       "meta",
       "120247777758400680",
       "adcom_baloto_fb_act_conversion_promocional-italia",
-      10794515.0
+      10794771.0
      ],
      [
       "google",
@@ -1375,25 +1375,25 @@ window.SPEND_DATA = {
       "tiktok",
       "1878953146799489",
       "adcom_baloto_tiktok_act_conversion_promocional-italia_2",
-      7643432.68
+      7644908.38
      ],
      [
       "meta",
       "120223284865130680",
       "adcom_baloto_fb_acq_meta_conversion-acq_influencers_meta",
-      5719120.0
+      5719678.0
      ],
      [
       "tiktok",
       "1868190541111394",
       "adcom_miloto_tiktok_ret_conversion-rmkt-ret_miloto",
-      5267936.29
+      5268686.14
      ],
      [
       "meta",
       "120244686627750680",
       "adcom_miloto_fb_ret_conversion-rmkt-ret_miloto",
-      3195420.0
+      3195701.0
      ],
      [
       "meta",
@@ -1405,13 +1405,13 @@ window.SPEND_DATA = {
       "meta",
       "120231325684940680",
       "adcom_baloto_fb_act_conversion-rmkt-crm_act",
-      1637188.0
+      1638056.0
      ],
      [
       "tiktok",
       "1879410124717122",
       "adcom_baloto_tiktok_ret_conversion-rmkt-ret_acumulado",
-      1238474.84
+      1240752.47
      ],
      [
       "meta",
@@ -1423,13 +1423,13 @@ window.SPEND_DATA = {
       "meta",
       "120247968281870680",
       "adcom_baloto_fb_awa_alcance_recordaciondemarca",
-      559025.0
+      559933.0
      ],
      [
       "tiktok",
       "1879388130379825",
       "adcom_baloto_tiktok_awa_reachandfreq",
-      409843.75
+      410982.61
      ],
      [
       "tiktok",
@@ -1557,7 +1557,7 @@ window.SPEND_DATA = {
      "tiktok": 2430.08
     },
     "2026-10": {
-     "meta": 4434.81,
+     "meta": 4440.04,
      "tiktok": 0.0
     }
    },
@@ -1575,43 +1575,43 @@ window.SPEND_DATA = {
       "meta",
       "120248207748350656",
       "adcom_megaloto_fb_conv_meta_one-activos",
-      1941.11
+      1943.74
      ],
      [
       "meta",
       "120248282497530656",
       "adcom_megaloto_fb_conv_meta_riesgo",
-      927.83
+      929.4
      ],
      [
       "meta",
       "120248282625860656",
       "adcom_megaloto_fb_conv_meta_nuevos",
-      503.26
+      503.73
      ],
      [
       "meta",
       "120248207356750656",
       "adcom_megaloto_fb_conv_meta_cons-meta",
-      502.63
+      502.98
      ],
      [
       "meta",
       "120248149964340656",
       "adcom_megaloto_fb_awa_meta_videoviews-awa",
-      359.05
+      359.13
      ],
      [
       "meta",
       "120248207032060656",
       "adcom_megaloto_fb_awa_meta_trafico-awa",
-      125.42
+      125.46
      ],
      [
       "meta",
       "120248168705980656",
       "adcom_megaloto_fb_awa_meta_interaccion_rrss",
-      75.51
+      75.6
      ]
     ]
    }
@@ -1696,7 +1696,7 @@ window.SPEND_DATA = {
      "meta": 8584568.0
     },
     "2026-10": {
-     "meta": 9351359.0
+     "meta": 9351808.0
     }
    },
    "campaigns": {
@@ -2025,19 +2025,19 @@ window.SPEND_DATA = {
       "meta",
       "120228286141930336",
       "4. Adcom - Campaña Conversiones  - Solicitud credito",
-      6695760.0
+      6696137.0
      ],
      [
       "meta",
       "120227756872800336",
       "3. Adcom - Campaña Conversiones  - Inicio inscripción",
-      2602164.0
+      2602218.0
      ],
      [
       "meta",
       "120250296514630336",
       "7. Adcom - Remarketing CRM - Solicitud credito",
-      53435.0
+      53453.0
      ]
     ]
    }
@@ -2136,8 +2136,8 @@ window.SPEND_DATA = {
      "google": 4457666.75
     },
     "2026-10": {
-     "meta": 4571133.0,
-     "google": 3204759.85
+     "meta": 4571825.0,
+     "google": 3205686.24
     }
    },
    "campaigns": {
@@ -2560,19 +2560,19 @@ window.SPEND_DATA = {
       "google",
       "23229352285",
       "adcom_lasalle_gg_conv_search_campaña-general-institucional",
-      3204759.85
+      3205686.24
      ],
      [
       "meta",
       "120249711860260544",
       "adcom_lasalle_meta_conv_form_campaña_all",
-      2479070.0
+      2479622.0
      ],
      [
       "meta",
       "120246958601260544",
       "adcom_lasalle_meta_conv_campaña-todos",
-      2092063.0
+      2092203.0
      ]
     ]
    }
@@ -2691,8 +2691,8 @@ window.SPEND_DATA = {
      "google": 7428464.18
     },
     "2026-10": {
-     "meta": 3867352.0,
-     "google": 4467989.7
+     "meta": 3871401.0,
+     "google": 4469651.69
     }
    },
    "campaigns": {
@@ -7311,31 +7311,31 @@ window.SPEND_DATA = {
       "meta",
       "120253980837710332",
       "UPB VIRTUAL - EVENTO - MBA - 21 Octubre",
-      391028.0
+      391451.0
      ],
      [
       "meta",
       "120253960941410332",
       "1.9.8 Maestria energias renovables para la transicion energetica_Meta_UPB Virtual",
-      331339.0
+      331594.0
      ],
      [
       "meta",
       "120253960833240332",
       "1.9.6 Especializacion en gestion de la sostenibilidad_Meta_UPB Virtual",
-      325684.0
+      325950.0
      ],
      [
       "meta",
       "120253960879680332",
       "1.9.7 Maestria de la sostenibilidad_Meta_UPB Virtual",
-      299485.0
+      300280.0
      ],
      [
       "meta",
       "120253450357780332",
       "2.11 MICROCREDENCIAL EN ESTUDIOS DE VIABILIDAD DE PROYECTOS_Meta_UPB OPEN",
-      264142.0
+      264143.0
      ],
      [
       "meta",
@@ -7347,7 +7347,7 @@ window.SPEND_DATA = {
       "meta",
       "120253449952180332",
       "2.10 MICROCREDENCIAL EN TRANSICIÓN EN LOS MERCADOS DE ENERGÍA_Meta_UPB OPEN",
-      258185.0
+      258187.0
      ],
      [
       "google",
@@ -7365,13 +7365,13 @@ window.SPEND_DATA = {
       "meta",
       "120253450858820332",
       "2.13 MICROCREDENCIAL EN INTELIGENCIA DE NEGOCIOS PARA LA TOMA DE DECISIONES_Meta_UPB OPEN",
-      242232.0
+      242259.0
      ],
      [
       "meta",
       "120253979745830332",
       "2.1 Pregrado_Educación_Carrusel_Meta_UPB Virtual",
-      133692.0
+      133757.0
      ],
      [
       "google",
@@ -7384,6 +7384,12 @@ window.SPEND_DATA = {
       "12658138751",
       "1.151 Especialización Comunicación y Periodismo Digital",
       126691.59
+     ],
+     [
+      "google",
+      "12691949678",
+      "1.28 Maestría en Sostenibilidad",
+      125504.77
      ],
      [
       "google",
@@ -7489,12 +7495,6 @@ window.SPEND_DATA = {
      ],
      [
       "google",
-      "12691949678",
-      "1.28 Maestría en Sostenibilidad",
-      123842.78
-     ],
-     [
-      "google",
       "18204611641",
       "1.13 Especialización en Gerencia",
       123642.02
@@ -7557,43 +7557,43 @@ window.SPEND_DATA = {
       "meta",
       "120212703113980332",
       "1.2. Administración&Gerencia_nucleo-administracion-Carrusel_Meta_UPB Virtual",
-      101510.0
+      101513.0
      ],
      [
       "meta",
       "120211611361560332",
       "1.9 Derecho_Carrusel_Meta_UPB Virtual",
-      100701.0
+      100763.0
      ],
      [
       "meta",
       "120219736168600332",
       "1.9.2 Marketing&Diseño_Carrusel_Meta_UPB Virtual",
-      99574.0
+      99686.0
      ],
      [
       "meta",
       "120213974538370332",
       "1.1. PosgradosProyectos_Carrusel_Meta_UPB Virtual",
-      99447.0
+      99626.0
      ],
      [
       "meta",
       "120211942008220332",
       "1.9.5 AdministraciónEmpresas_Post_Meta_UPB Virtual",
-      99353.0
+      99500.0
      ],
      [
       "meta",
       "120213973594440332",
       "1.4. Educación_Carrusel_Meta_UPB Virtual",
-      97751.0
+      97772.0
      ],
      [
       "meta",
       "120213974635030332",
       "1.3. Comunicación_Carrusel_Meta_UPB Virtual",
-      97678.0
+      97728.0
      ],
      [
       "meta",
@@ -7617,13 +7617,13 @@ window.SPEND_DATA = {
       "meta",
       "120209099884890332",
       "1.8 DesarrolloSocial&Territorio_Carrusel_Meta_UPB Virtual",
-      95494.0
+      95499.0
      ],
      [
       "meta",
       "120219734594150332",
       "1.6 Filosofía&Literatura_Carrusel_Meta_UPB Virtual",
-      94871.0
+      95329.0
      ],
      [
       "google",
@@ -7641,7 +7641,7 @@ window.SPEND_DATA = {
       "meta",
       "120254070267010332",
       "UPB VIRTUAL - EVENTO - Maestria Diseño - 22 Octubre",
-      72401.0
+      73341.0
      ],
      [
       "google",
@@ -7653,13 +7653,13 @@ window.SPEND_DATA = {
       "meta",
       "120211419503660332",
       "1.9.3 IngenieríaSoftware_Post_Meta_UPB Virtual",
-      56226.0
+      56229.0
      ],
      [
       "meta",
       "120254071417230332",
       "2.2 Pregrado_Diseño_Carrusel_Meta_UPB Virtual",
-      39591.0
+      39826.0
      ],
      [
       "google",
@@ -7803,7 +7803,7 @@ window.SPEND_DATA = {
      "tiktok": 0.0
     },
     "2026-10": {
-     "meta": 8984246.0,
+     "meta": 8986129.0,
      "google": 14557919.33,
      "tiktok": 0.0
     }
@@ -9860,7 +9860,7 @@ window.SPEND_DATA = {
       "meta",
       "120226861113850043",
       "adcom_ucorpas_fb_acq_landing_meta_pregrado-medicina-2027-1",
-      8984246.0
+      8986129.0
      ]
     ]
    }
