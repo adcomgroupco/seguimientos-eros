@@ -212,7 +212,8 @@
     $('q').oninput = renderCamp; $('btn-reset').onclick = resetFilters;
     $('corte-side').textContent = fDate(D.corte) + '/' + D.corte.slice(0, 4);
     $('last-upd').textContent = D.fuente === 'vivo' ? 'Hoja en vivo' : `Copia del ${fDate(D.copia)}`;
-    const apiTxt = D.api ? ` Consumo de plataformas al <b>${fDate(D.api.hasta)}/${D.api.hasta.slice(0, 4)}</b> (${D.api.cuentas.map(c => esc(c.name)).join(', ')}).` : '';
+    const apiTxt = D.api ? ` Consumo de plataformas al <b>${fDate(D.api.hasta)}/${D.api.hasta.slice(0, 4)}</b> (${D.api.cuentas.map(c => esc(c.name)).join(', ')}).`
+      + (D.api.errores.length ? ` <b>Aviso</b>: ${D.api.errores.map(esc).join('; ')}.` : '') : '';
     $('fuente-note').innerHTML = `<b>Fuente</b>: pestaña ${esc(CFG.nombre)} de la hoja de seguimiento${D.fuente === 'vivo' ? ', leída en vivo al abrir la página' : ' (copia guardada; la hoja no respondió)'}. Corte de la hoja: <b>${fDate(D.corte)}/${D.corte.slice(0, 4)}</b>.${apiTxt} ${esc(CFG.nota)}`;
     resetFilters();
     $('loading').style.display = 'none';
