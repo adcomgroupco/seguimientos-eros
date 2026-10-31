@@ -1,6 +1,6 @@
 # Seguimientos de presupuesto
 
-Seguimiento mensual de presupuesto y consumo de Baloto, Megaloto, La Salle, UPB y Corpas.
+Seguimiento mensual de presupuesto y consumo de Baloto, Megaloto, RIS, La Salle, UPB y Corpas.
 
 - `index.html`: estado de cada cuenta en el mes en curso y su alerta principal.
 - `seguimiento-<cuenta>.html`: resumen del mes, alertas, medios, campañas e histórico (mismo formato que el seguimiento de Baloto).

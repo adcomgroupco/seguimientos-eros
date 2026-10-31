@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Seguimiento de presupuesto y consumo de Baloto, Megaloto, La Salle, UPB y Corpas.">
+  <meta name="description" content="Seguimiento de presupuesto y consumo de Baloto, Megaloto, RIS, La Salle, UPB y Corpas.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#f4f4f1">
   <title>Seguimientos de presupuesto</title>
@@ -19,6 +19,7 @@
   <script src="data/hoja_lasalle.js"></script>
   <script src="data/hoja_upb.js"></script>
   <script src="data/hoja_corpas.js"></script>
+  <script src="data/hoja_ris.js"></script>
   <script src="data/consumo_plataformas.js"></script>
   <script src="assets/js/hoja.js"></script>
 </head>
@@ -92,7 +93,7 @@
 <script>
 (async () => {
   const S = window.SEG, {esc, fP, div, pace, paceCol, mesLbl, fDate} = S;
-  const ORDEN = ['baloto', 'megaloto', 'lasalle', 'upb', 'corpas'];
+  const ORDEN = ['baloto', 'megaloto', 'ris', 'lasalle', 'upb', 'corpas'];
   const datos = await Promise.all(ORDEN.map(k => S.leer(k).then(D => ({D, A: S.alertas(D)}))));
 
   const pbar = T => `<div class="pbar" title="Consumo ${fP(T.pc)} · esperado ${fP(div(T.esp, T.ppto))}"><i style="width:${Math.min(T.pc || 0, 1) * 100}%;background:${paceCol(T.pace)}"></i><b style="left:${Math.min(div(T.esp, T.ppto) || 0, 1) * 100}%"></b></div>`;

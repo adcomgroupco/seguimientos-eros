@@ -57,6 +57,15 @@
       dim: {label: 'Cuenta', col: 'CUENTA', fn: v => titulo(v) || 'Sin cuenta'}, hist: 'api',
       nota: 'La pestaña reutiliza bloques sin cambiarles el título, así que el mes se toma de las fechas de las campañas. El consumo histórico viene de Meta y Google Ads porque la hoja no lo guarda al cierre.'
     },
+    ris: {
+      nombre: 'RIS', sub: 'Créditos RIS', gid: '620196651', moneda: 'COP', mesPor: 'titulo',
+      dim: null, hist: 'api',
+      // la columna de nomenclatura no tiene título: es la que va antes de Estado
+      nomAntesDeEstado: true,
+      // septiembre tiene un segundo bloque con una versión anterior del plan: vale el primero
+      unBloquePorMes: true,
+      nota: 'La pestaña no titula la columna de nomenclatura y repite septiembre con una versión anterior del plan; se toma el primer bloque de cada mes. El consumo histórico viene de Meta.'
+    },
     corpas: {
       nombre: 'Corpas', sub: 'Fundación Universitaria Juan N. Corpas', gid: '1972183735', moneda: 'COP', mesPor: 'titulo',
       dim: {label: 'Modalidad', col: 'MODALIDAD', fn: v => { const n = norm(v); return /PRAGRADO|PREGRADO/.test(n) ? 'Pregrado' : /POSGRADO|MBA/.test(n) ? 'Posgrado' : /BRANDING/.test(n) ? 'Branding' : 'Otra' }},
@@ -139,8 +148,10 @@
     const bloques = []; let col = null, cur = null, seccion = null;
     g.forEach((r, ix) => {
       const n = r.map(norm);
-      if (n.includes('NOMENCLATURA') && n.includes('ESTADO')) {
+      const sinNom = cfg.nomAntesDeEstado && n.includes('ESTADO') && n.includes('PRESUPUESTO');
+      if ((n.includes('NOMENCLATURA') || sinNom) && n.includes('ESTADO')) {
         col = {}; n.forEach((k, i) => { if (!(k in col)) col[k] = i });
+        if (!('NOMENCLATURA' in col)) col.NOMENCLATURA = col.ESTADO - 1;
         let t = '';
         for (let k = 1; k <= 3 && !t; k++) t = (g[ix - k] || []).slice(0, 3).filter(Boolean).join(' ');
         const mes = mesDeTitulo(t);
@@ -170,6 +181,7 @@
       if (b.adgroups || b.cohorte || !b.filas.length) return;
       const firma = b.filas.map(f => f.nom + '|' + f.ppto + '|' + f.cons + '|' + f.ini).join('§');
       if (vistos.has(firma)) return; vistos.add(firma);
+      if (cfg.unBloquePorMes && b.mes) { if (vistos.has('mes' + b.mes)) return; vistos.add('mes' + b.mes) }
       const inis = b.filas.map(f => f.ini).filter(Boolean);
       let mes;
       if (cfg.mesPor === 'fechas' && inis.length) mes = moda(inis.map(d => d.slice(0, 7)));
