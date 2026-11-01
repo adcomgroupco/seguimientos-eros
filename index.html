@@ -30,6 +30,7 @@
   <a class="wordmark" href="index.html"><i></i>Seguimientos <span>ADCOM</span></a>
   <nav aria-label="Secciones">
     <a href="#estado">Estado</a>
+    <a href="#cerrado">Mes cerrado</a>
     <a href="#cuentas">Seguimientos</a>
   </nav>
   <span class="stamp" id="stamp">—</span>
@@ -65,6 +66,21 @@
   </div>
 </section>
 </div>
+
+<section class="grupo wrap" id="cerrado">
+  <div class="grupo-head">
+    <h2 id="cerrado-h">Mes cerrado</h2>
+    <p>Cierre del mes anterior: presupuesto de la hoja frente a lo que se gastó en las plataformas.</p>
+  </div>
+  <div class="estado-wrap">
+    <table class="estado">
+      <thead><tr>
+        <th>Cuenta</th><th class="r">Presupuesto</th><th class="r">Consumo hoja</th><th>Ejecutado</th><th class="r">Plataformas</th><th class="r">Sin gastar</th><th></th>
+      </tr></thead>
+      <tbody id="cerrado-body"><tr><td colspan="7" class="cargando">Leyendo la hoja de seguimiento…</td></tr></tbody>
+    </table>
+  </div>
+</section>
 
 <section class="grupo wrap" id="cuentas">
   <div class="grupo-head">
@@ -135,6 +151,25 @@
       <ul>${A.lista.slice(0, 3).map(a => `<li class="s${a.sev}">${esc(a.tipo)}</li>`).join('')}</ul>
     </a>`;
   }).join('');
+
+  // mes cerrado: el anterior al mes de corte. La hoja ya tiene el consumo final como valor fijo.
+  const mesAnt = m => { const [y, mm] = m.split('-').map(Number); return mm === 1 ? `${y - 1}-12` : `${y}-${String(mm - 1).padStart(2, '0')}` };
+  const cerrado = mesAnt(datos.map(x => x.A.mes).sort().pop());
+  document.getElementById('cerrado-h').textContent = `${mesLbl(cerrado)} · cerrado`;
+  document.getElementById('cerrado-body').innerHTML = datos.map(({D}) => {
+    const F = S.fmt(D.cfg.moneda), T = S.suma(D.campanas.filter(f => f.mes === cerrado)), plat = S.apiMes(D.api, cerrado).total;
+    if (!T.n) return '';
+    const ej = div(T.cons, T.ppto), cls = ej === null ? 'p-off' : ej >= .97 && ej <= 1.03 ? 'p-pos' : ej >= .9 && ej <= 1.1 ? 'p-mid' : 'p-neg';
+    return `<tr class="fila" data-href="${url(D.key)}">
+      <td class="cuenta"><b>${esc(D.cfg.nombre)}</b><small>${esc(mesLbl(cerrado))}</small></td>
+      <td class="r">${F.corto(T.ppto)}</td>
+      <td class="r">${F.corto(T.cons)}</td>
+      <td><span class="pill ${cls}">${fP(ej)}</span>${pbar({...T, esp: T.ppto, pace: ej})}</td>
+      <td class="r">${plat ? F.corto(plat) : '—'}</td>
+      <td class="r">${F.corto(Math.max(0, T.ppto - T.cons))}</td>
+      <td><a class="ir" href="${url(D.key)}">Ver →</a></td></tr>`;
+  }).join('');
+  document.querySelectorAll('#cerrado-body tr.fila').forEach(r => r.onclick = e => { if (!e.target.closest('a')) location.href = r.dataset.href });
 
   const n = s => datos.filter(x => x.A.estado.txt === s).length;
   document.getElementById('conteo').innerHTML = ['Revisar', 'Atención', 'En ritmo'].map(s => `<a href="#estado">${s} <b>${n(s)}</b></a>`).join('');
