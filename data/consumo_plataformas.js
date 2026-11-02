@@ -1,7 +1,7 @@
 window.SPEND_DATA = {
- "generated_at": "2026-11-01T07:23",
+ "generated_at": "2026-11-02T07:15",
  "since": "2025-09-01",
- "until": "2026-11-01",
+ "until": "2026-11-02",
  "clients": {
   "baloto": {
    "name": "Baloto",
@@ -95,9 +95,9 @@ window.SPEND_DATA = {
    "errors": [],
    "foreign_currency": {},
    "fechas": {
-    "meta": "2026-11-01",
-    "tiktok": "2026-11-01",
-    "google": "2026-11-01"
+    "meta": "2026-11-02",
+    "tiktok": "2026-11-02",
+    "google": "2026-11-02"
    },
    "spend": {
     "2025-09": {
@@ -161,14 +161,14 @@ window.SPEND_DATA = {
      "google": 33438058.4
     },
     "2026-10": {
-     "meta": 82203365.0,
+     "meta": 82203686.0,
      "tiktok": 90518474.98,
-     "google": 90313048.69
+     "google": 90313050.4
     },
     "2026-11": {
-     "meta": 104774.0,
-     "tiktok": 228310.51,
-     "google": 104820.87
+     "meta": 1278581.0,
+     "tiktok": 2449581.01,
+     "google": 746056.93
     }
    },
    "campaigns": {
@@ -1343,7 +1343,7 @@ window.SPEND_DATA = {
       "google",
       "23555995864",
       "adcom_baloto_gg_traf_pmax_trafico_traf_googleads",
-      49268321.45
+      49268323.16
      ],
      [
       "google",
@@ -1355,13 +1355,13 @@ window.SPEND_DATA = {
       "meta",
       "120237089274450680",
       "adcom_miloto_fb_ret_conversion-rmkt-ret_acumulado",
-      19100659.0
+      19100665.0
      ],
      [
       "meta",
       "120217605484200680",
       "adcom_baloto_fb_ret_conversion-rmkt-ret_acumulado",
-      19017187.0
+      19017468.0
      ],
      [
       "google",
@@ -1379,7 +1379,7 @@ window.SPEND_DATA = {
       "meta",
       "120238152745210680",
       "adcom_colorloto_fb_ret_conversion-rmkt-ret_acumulado",
-      9921918.0
+      9921946.0
      ],
      [
       "tiktok",
@@ -1427,7 +1427,7 @@ window.SPEND_DATA = {
       "meta",
       "120231325684940680",
       "adcom_baloto_fb_act_conversion-rmkt-crm_act",
-      2360307.0
+      2360313.0
      ],
      [
       "meta",
@@ -1453,67 +1453,79 @@ window.SPEND_DATA = {
       "tiktok",
       "1856779037881585",
       "adcom_baloto_tiktok_acq_conversion-registros",
-      183109.38
-     ],
-     [
-      "google",
-      "23767709733",
-      "adcom_baloto_gg_awa_search_competencia_trafico_awa_googleads",
-      61904.0
-     ],
-     [
-      "meta",
-      "120217605484200680",
-      "adcom_baloto_fb_ret_conversion-rmkt-ret_acumulado",
-      33207.0
-     ],
-     [
-      "google",
-      "23771945181",
-      "adcom_baloto_gg_awa_search_category_trafico_awa_googleads",
-      32170.34
-     ],
-     [
-      "meta",
-      "120223284865130680",
-      "adcom_baloto_fb_acq_meta_conversion-acq_influencers_meta",
-      31959.0
+      1747231.39
      ],
      [
       "tiktok",
       "1879410124717122",
       "adcom_baloto_tiktok_ret_conversion-rmkt-ret_acumulado",
-      31205.98
+      591140.38
      ],
      [
       "meta",
-      "120231325684940680",
-      "adcom_baloto_fb_act_conversion-rmkt-crm_act",
-      14953.0
-     ],
-     [
-      "meta",
-      "120247777758400680",
-      "adcom_baloto_fb_act_conversion_promocional-italia",
-      14017.0
-     ],
-     [
-      "tiktok",
-      "1878953146799489",
-      "adcom_baloto_tiktok_act_conversion_promocional-italia_2",
-      13995.15
+      "120223284865130680",
+      "adcom_baloto_fb_acq_meta_conversion-acq_influencers_meta",
+      462092.0
      ],
      [
       "google",
-      "23555995864",
-      "adcom_baloto_gg_traf_pmax_trafico_traf_googleads",
-      10746.53
+      "23767709733",
+      "adcom_baloto_gg_awa_search_competencia_trafico_awa_googleads",
+      431202.0
+     ],
+     [
+      "meta",
+      "120217605484200680",
+      "adcom_baloto_fb_ret_conversion-rmkt-ret_acumulado",
+      428805.0
+     ],
+     [
+      "google",
+      "23771945181",
+      "adcom_baloto_gg_awa_search_category_trafico_awa_googleads",
+      205375.73
      ],
      [
       "meta",
       "120244686627750680",
       "adcom_miloto_fb_ret_conversion-rmkt-ret_miloto",
-      10638.0
+      119962.0
+     ],
+     [
+      "tiktok",
+      "1878953146799489",
+      "adcom_baloto_tiktok_act_conversion_promocional-italia_2",
+      111209.24
+     ],
+     [
+      "google",
+      "23555995864",
+      "adcom_baloto_gg_traf_pmax_trafico_traf_googleads",
+      109479.2
+     ],
+     [
+      "meta",
+      "120247777758400680",
+      "adcom_baloto_fb_act_conversion_promocional-italia",
+      104038.0
+     ],
+     [
+      "meta",
+      "120231325684940680",
+      "adcom_baloto_fb_act_conversion-rmkt-crm_act",
+      84750.0
+     ],
+     [
+      "meta",
+      "120237089274450680",
+      "adcom_miloto_fb_ret_conversion-rmkt-ret_acumulado",
+      66132.0
+     ],
+     [
+      "meta",
+      "120238152745210680",
+      "adcom_colorloto_fb_ret_conversion-rmkt-ret_acumulado",
+      12802.0
      ]
     ]
    }
@@ -1600,8 +1612,8 @@ window.SPEND_DATA = {
    "errors": [],
    "foreign_currency": {},
    "fechas": {
-    "meta": "2026-11-01",
-    "tiktok": "2026-11-01"
+    "meta": "2026-11-02",
+    "tiktok": "2026-11-02"
    },
    "spend": {
     "2025-09": {
@@ -1644,11 +1656,11 @@ window.SPEND_DATA = {
      "tiktok": 2430.08
     },
     "2026-10": {
-     "meta": 19742.02,
+     "meta": 19742.03,
      "tiktok": 0.0
     },
     "2026-11": {
-     "meta": 127.94,
+     "meta": 796.05,
      "tiktok": 0.0
     }
    },
@@ -1672,7 +1684,7 @@ window.SPEND_DATA = {
       "meta",
       "120248282497530656",
       "adcom_megaloto_fb_conv_meta_riesgo",
-      3544.79
+      3544.8
      ],
      [
       "meta",
@@ -1752,43 +1764,43 @@ window.SPEND_DATA = {
       "meta",
       "120248207748350656",
       "adcom_megaloto_fb_conv_meta_one-activos",
-      43.66
-     ],
-     [
-      "meta",
-      "120248149964340656",
-      "adcom_megaloto_fb_awa_meta_videoviews-awa",
-      23.94
+      292.85
      ],
      [
       "meta",
       "120248282497530656",
       "adcom_megaloto_fb_conv_meta_riesgo",
-      20.04
+      189.22
      ],
      [
       "meta",
-      "120248168705980656",
-      "adcom_megaloto_fb_awa_meta_interaccion_rrss",
-      14.64
+      "120248149964340656",
+      "adcom_megaloto_fb_awa_meta_videoviews-awa",
+      96.43
      ],
      [
       "meta",
       "120248282625860656",
       "adcom_megaloto_fb_conv_meta_nuevos",
-      10.86
+      87.84
      ],
      [
       "meta",
       "120248207032060656",
       "adcom_megaloto_fb_awa_meta_trafico-awa",
-      9.74
+      44.46
+     ],
+     [
+      "meta",
+      "120248168705980656",
+      "adcom_megaloto_fb_awa_meta_interaccion_rrss",
+      44.23
      ],
      [
       "meta",
       "120248207356750656",
       "adcom_megaloto_fb_conv_meta_cons-meta",
-      5.06
+      41.02
      ]
     ]
    }
@@ -1833,7 +1845,7 @@ window.SPEND_DATA = {
    "errors": [],
    "foreign_currency": {},
    "fechas": {
-    "meta": "2026-11-01"
+    "meta": "2026-11-02"
    },
    "spend": {
     "2025-09": {
@@ -1876,10 +1888,10 @@ window.SPEND_DATA = {
      "meta": 8584568.0
     },
     "2026-10": {
-     "meta": 12805124.0
+     "meta": 12805436.0
     },
     "2026-11": {
-     "meta": 19509.0
+     "meta": 297724.0
     }
    },
    "campaigns": {
@@ -2208,19 +2220,19 @@ window.SPEND_DATA = {
       "meta",
       "120228286141930336",
       "4. Adcom - Campaña Conversiones  - Solicitud credito",
-      8613437.0
+      8613696.0
      ],
      [
       "meta",
       "120227756872800336",
       "3. Adcom - Campaña Conversiones  - Inicio inscripción",
-      3797273.0
+      3797318.0
      ],
      [
       "meta",
       "120250296514630336",
       "7. Adcom - Remarketing CRM - Solicitud credito",
-      394414.0
+      394422.0
      ]
     ],
     "2026-11": [
@@ -2228,19 +2240,19 @@ window.SPEND_DATA = {
       "meta",
       "120228286141930336",
       "4. Adcom - Campaña Conversiones  - Solicitud credito",
-      10379.0
+      143762.0
      ],
      [
       "meta",
       "120227756872800336",
       "3. Adcom - Campaña Conversiones  - Inicio inscripción",
-      6209.0
+      120914.0
      ],
      [
       "meta",
       "120250296514630336",
       "7. Adcom - Remarketing CRM - Solicitud credito",
-      2921.0
+      33048.0
      ]
     ]
    }
@@ -2291,8 +2303,8 @@ window.SPEND_DATA = {
    "errors": [],
    "foreign_currency": {},
    "fechas": {
-    "meta": "2026-11-01",
-    "google": "2026-11-01"
+    "meta": "2026-11-02",
+    "google": "2026-11-02"
    },
    "spend": {
     "2025-10": {
@@ -2845,8 +2857,8 @@ window.SPEND_DATA = {
    "errors": [],
    "foreign_currency": {},
    "fechas": {
-    "meta": "2026-11-01",
-    "google": "2026-11-01"
+    "meta": "2026-11-02",
+    "google": "2026-11-02"
    },
    "spend": {
     "2025-09": {
@@ -2902,12 +2914,12 @@ window.SPEND_DATA = {
      "google": 7428464.18
     },
     "2026-10": {
-     "meta": 6550988.0,
+     "meta": 6551022.0,
      "google": 11992946.69
     },
     "2026-11": {
-     "meta": 66164.0,
-     "google": 99310.08
+     "meta": 362230.0,
+     "google": 1332779.76
     }
    },
    "campaigns": {
@@ -7550,7 +7562,7 @@ window.SPEND_DATA = {
       "meta",
       "120213973594440332",
       "1.4. Educación_Carrusel_Meta_UPB Virtual",
-      358192.0
+      358201.0
      ],
      [
       "meta",
@@ -7838,7 +7850,7 @@ window.SPEND_DATA = {
       "meta",
       "120254073366310332",
       "2.3 Especializacion Educacion para profesionales de la salud_Carrusel_Meta_UPB Virtual",
-      202534.0
+      202538.0
      ],
      [
       "meta",
@@ -7850,7 +7862,7 @@ window.SPEND_DATA = {
       "meta",
       "120211419503660332",
       "1.9.3 IngenieríaSoftware_Post_Meta_UPB Virtual",
-      172583.0
+      172603.0
      ],
      [
       "meta",
@@ -7898,7 +7910,7 @@ window.SPEND_DATA = {
       "meta",
       "120211942008220332",
       "1.9.5 AdministraciónEmpresas_Post_Meta_UPB Virtual",
-      141568.0
+      141569.0
      ],
      [
       "meta",
@@ -7945,226 +7957,280 @@ window.SPEND_DATA = {
     ],
     "2026-11": [
      [
-      "meta",
-      "120213974538370332",
-      "1.1. PosgradosProyectos_Carrusel_Meta_UPB Virtual",
-      17198.0
-     ],
-     [
-      "meta",
-      "120211611361560332",
-      "1.9 Derecho_Carrusel_Meta_UPB Virtual",
-      13375.0
-     ],
-     [
-      "meta",
-      "120213973594440332",
-      "1.4. Educación_Carrusel_Meta_UPB Virtual",
-      13297.0
-     ],
-     [
-      "meta",
-      "120213974635030332",
-      "1.3. Comunicación_Carrusel_Meta_UPB Virtual",
-      11645.0
-     ],
-     [
-      "google",
-      "22399044850",
-      "1.19 Maestría Marketing digital",
-      7100.07
-     ],
-     [
-      "google",
-      "24380696553",
-      "1.47 Especialización en Educación para Profesionales de la Salud",
-      6552.0
-     ],
-     [
-      "google",
-      "18204611650",
-      "1.11 Maestría en Gestión de la Información y el Conocimiento",
-      6372.29
-     ],
-     [
-      "google",
-      "21080384397",
-      "1.34 Especialización en Gobierno Territorio y Desarrollo",
-      6236.0
-     ],
-     [
-      "meta",
-      "120211419503660332",
-      "1.9.3 IngenieríaSoftware_Post_Meta_UPB Virtual",
-      5862.0
-     ],
-     [
-      "google",
-      "12644956684",
-      "1.33 Maestría Innovación Social y Territorio",
-      5490.0
-     ],
-     [
-      "google",
-      "12645316481",
-      "1.26 Especialización en Preservación y Conservación de los Recursos Naturales 2025",
-      5051.0
-     ],
-     [
-      "google",
-      "12691949678",
-      "1.28 Maestría en Sostenibilidad",
-      4850.0
-     ],
-     [
-      "google",
-      "15558399591",
-      "1.27. Especialización en Gestión de Sostenibilidad",
-      4850.0
-     ],
-     [
-      "google",
-      "22398922303",
-      "1.18 Maestría Diseño",
-      4848.0
-     ],
-     [
-      "google",
-      "23736231542",
-      "1.39 Maestria en Gestión Humana para organizaciones saludables",
-      4629.0
-     ],
-     [
-      "google",
-      "12645050540",
-      "1.30 Especialización en Gerencia de Tecnologías de Información",
-      4298.0
-     ],
-     [
-      "google",
-      "21080384394",
-      "1.38 Especialización en Gestión Humana",
-      3716.0
-     ],
-     [
-      "google",
-      "21585600405",
-      "1.14  MBA en Administración",
-      3698.0
-     ],
-     [
-      "google",
-      "22373990109",
-      "1.32 Maestría Ciencia de Datos",
-      3351.0
-     ],
-     [
       "google",
       "24391969822",
       "1.46 Licenciatura en Lenguas Extranjeras",
-      3345.0
-     ],
-     [
-      "meta",
-      "120254073366310332",
-      "2.3 Especializacion Educacion para profesionales de la salud_Carrusel_Meta_UPB Virtual",
-      2968.0
-     ],
-     [
-      "google",
-      "22365562513",
-      "1.23 Maestría en Innovación Educativa",
-      2887.0
-     ],
-     [
-      "google",
-      "21481906456",
-      "1.35  Especializacion en Derecho Procesal",
-      2717.0
-     ],
-     [
-      "google",
-      "15558399594",
-      "1.31. Especialización en Seguridad Infomática",
-      2571.0
-     ],
-     [
-      "google",
-      "23731036056",
-      "1.12 Especialización en Gerencia de proyectos",
-      2167.72
-     ],
-     [
-      "google",
-      "12645612195",
-      "1.24 Maestría en Literatura",
-      1918.0
-     ],
-     [
-      "meta",
-      "120211942008220332",
-      "1.9.5 AdministraciónEmpresas_Post_Meta_UPB Virtual",
-      1819.0
-     ],
-     [
-      "google",
-      "21585600939",
-      "1.41 Tecnologia en Animación",
-      1767.0
-     ],
-     [
-      "google",
-      "12691832858",
-      "1.22 Maestría en Educación",
-      1505.0
-     ],
-     [
-      "google",
-      "12691787957",
-      "1.17 Maestría Comunicación Digital",
-      1479.0
-     ],
-     [
-      "google",
-      "12657964231",
-      "1. Campaña General UPB Virtual",
-      1403.0
+      144981.36
      ],
      [
       "google",
       "24386034152",
       "1.48 Maestría en Derecho",
-      1357.0
+      103010.0
      ],
      [
       "google",
-      "12645808065",
-      "1.16 Especialización en Gestión Estratégica de la Comunicación",
-      1335.0
+      "24380696553",
+      "1.47 Especialización en Educación para Profesionales de la Salud",
+      86189.0
+     ],
+     [
+      "meta",
+      "120213974538370332",
+      "1.1. PosgradosProyectos_Carrusel_Meta_UPB Virtual",
+      74500.0
+     ],
+     [
+      "meta",
+      "120213974635030332",
+      "1.3. Comunicación_Carrusel_Meta_UPB Virtual",
+      74106.0
+     ],
+     [
+      "meta",
+      "120213973594440332",
+      "1.4. Educación_Carrusel_Meta_UPB Virtual",
+      73052.0
+     ],
+     [
+      "meta",
+      "120211611361560332",
+      "1.9 Derecho_Carrusel_Meta_UPB Virtual",
+      69428.0
      ],
      [
       "google",
       "22380311486",
       "1.25 Maestría Filosofía",
-      1164.0
+      38224.06
      ],
      [
       "google",
-      "21417129080",
-      "1.40 Pregrado en Ingenieria de Software",
-      975.0
+      "12645316481",
+      "1.26 Especialización en Preservación y Conservación de los Recursos Naturales 2025",
+      36346.16
+     ],
+     [
+      "meta",
+      "120254073366310332",
+      "2.3 Especializacion Educacion para profesionales de la salud_Carrusel_Meta_UPB Virtual",
+      36170.0
+     ],
+     [
+      "google",
+      "23731036056",
+      "1.12 Especialización en Gerencia de proyectos",
+      34873.72
+     ],
+     [
+      "google",
+      "12645612195",
+      "1.24 Maestría en Literatura",
+      34633.0
+     ],
+     [
+      "google",
+      "15558399594",
+      "1.31. Especialización en Seguridad Infomática",
+      34512.77
+     ],
+     [
+      "google",
+      "22365562513",
+      "1.23 Maestría en Innovación Educativa",
+      34368.68
+     ],
+     [
+      "google",
+      "22373990109",
+      "1.32 Maestría Ciencia de Datos",
+      34105.0
+     ],
+     [
+      "google",
+      "21585600939",
+      "1.41 Tecnologia en Animación",
+      33547.68
      ],
      [
       "google",
       "21640866712",
       "1.15 Especialización en Finanzas",
-      928.0
+      33107.51
+     ],
+     [
+      "google",
+      "15558399591",
+      "1.27. Especialización en Gestión de Sostenibilidad",
+      32966.07
+     ],
+     [
+      "google",
+      "23174653424",
+      "1.44 Licenciatura en Tecnología Educativa",
+      32345.0
+     ],
+     [
+      "google",
+      "12691787957",
+      "1.17 Maestría Comunicación Digital",
+      32124.0
+     ],
+     [
+      "google",
+      "18204611641",
+      "1.13 Especialización en Gerencia",
+      32039.78
+     ],
+     [
+      "google",
+      "21481906459",
+      "1.36 Especializacion en Legislación Tributaria",
+      31893.62
+     ],
+     [
+      "google",
+      "12645808065",
+      "1.16 Especialización en Gestión Estratégica de la Comunicación",
+      31272.8
+     ],
+     [
+      "google",
+      "21080384394",
+      "1.38 Especialización en Gestión Humana",
+      30453.05
+     ],
+     [
+      "google",
+      "12658138751",
+      "1.151 Especialización Comunicación y Periodismo Digital",
+      30165.0
+     ],
+     [
+      "google",
+      "12691949678",
+      "1.28 Maestría en Sostenibilidad",
+      29989.0
+     ],
+     [
+      "meta",
+      "120211419503660332",
+      "1.9.3 IngenieríaSoftware_Post_Meta_UPB Virtual",
+      29881.0
+     ],
+     [
+      "google",
+      "12644956684",
+      "1.33 Maestría Innovación Social y Territorio",
+      29800.72
+     ],
+     [
+      "google",
+      "22398922303",
+      "1.18 Maestría Diseño",
+      28985.13
+     ],
+     [
+      "google",
+      "21080384397",
+      "1.34 Especialización en Gobierno Territorio y Desarrollo",
+      28573.84
+     ],
+     [
+      "google",
+      "12691832858",
+      "1.22 Maestría en Educación",
+      28455.83
+     ],
+     [
+      "google",
+      "18204611650",
+      "1.11 Maestría en Gestión de la Información y el Conocimiento",
+      28431.29
+     ],
+     [
+      "google",
+      "21417129080",
+      "1.40 Pregrado en Ingenieria de Software",
+      28214.0
+     ],
+     [
+      "google",
+      "22377784935",
+      "1.29 Maestría energías renovables para la transición energética",
+      28008.48
+     ],
+     [
+      "google",
+      "21585600405",
+      "1.14  MBA en Administración",
+      26495.76
+     ],
+     [
+      "google",
+      "23174653427",
+      "1.45 Licenciatura en Literatura y Lengua Castellana",
+      25654.0
+     ],
+     [
+      "google",
+      "21481906462",
+      "1.37 Especializacion en Derecho de Familia, Infancia y Adolecencia 2025",
+      23780.0
+     ],
+     [
+      "google",
+      "12645050540",
+      "1.30 Especialización en Gerencia de Tecnologías de Información",
+      22134.78
+     ],
+     [
+      "google",
+      "12657964231",
+      "1. Campaña General UPB Virtual",
+      21385.78
      ],
      [
       "google",
       "12691008426",
       "1.21 Maestría en Ciencias Naturales y Matemática",
-      750.0
+      18198.0
+     ],
+     [
+      "google",
+      "21489280780",
+      "1.42 Pregrado en Administración de Empresas",
+      17845.74
+     ],
+     [
+      "google",
+      "23736231542",
+      "1.39 Maestria en Gestión Humana para organizaciones saludables",
+      14798.0
+     ],
+     [
+      "google",
+      "21481906456",
+      "1.35  Especializacion en Derecho Procesal",
+      13185.0
+     ],
+     [
+      "google",
+      "22399009627",
+      "1.43 Pregrado Publicidad y Marketing digital",
+      9570.83
+     ],
+     [
+      "google",
+      "22399044850",
+      "1.19 Maestría Marketing digital",
+      8115.32
+     ],
+     [
+      "meta",
+      "120211942008220332",
+      "1.9.5 AdministraciónEmpresas_Post_Meta_UPB Virtual",
+      5093.0
      ]
     ]
    }
@@ -8208,9 +8274,9 @@ window.SPEND_DATA = {
    "errors": [],
    "foreign_currency": {},
    "fechas": {
-    "meta": "2026-11-01",
-    "google": "2026-11-01",
-    "tiktok": "2026-11-01"
+    "meta": "2026-11-02",
+    "google": "2026-11-02",
+    "tiktok": "2026-11-02"
    },
    "spend": {
     "2025-09": {
@@ -8277,13 +8343,13 @@ window.SPEND_DATA = {
      "tiktok": 0.0
     },
     "2026-10": {
-     "meta": 21096446.0,
+     "meta": 21096588.0,
      "google": 27309075.7,
      "tiktok": 0.0
     },
     "2026-11": {
-     "meta": 149679.0,
-     "google": 42538.23,
+     "meta": 1358315.0,
+     "google": 961026.33,
      "tiktok": 0.0
     }
    },
@@ -10345,7 +10411,7 @@ window.SPEND_DATA = {
       "meta",
       "120251120987530043",
       "adcom_ucorpas_fb_acq_landing_meta_general-posgrados-2027-1",
-      3234273.0
+      3234415.0
      ],
      [
       "google",
@@ -10404,76 +10470,76 @@ window.SPEND_DATA = {
     ],
     "2026-11": [
      [
-      "meta",
-      "120251120987530043",
-      "adcom_ucorpas_fb_acq_landing_meta_general-posgrados-2027-1",
-      33922.0
+      "google",
+      "21334639191",
+      "adcom_ucorpas_gg_acq_search_pregrado-medicina-2027-1",
+      555081.98
      ],
      [
       "meta",
-      "120251064449540043",
-      "adcom_ucorpas_fb_acq_landing-video_meta_pregrado-medicina-2027-1",
-      28822.0
+      "120251120987530043",
+      "adcom_ucorpas_fb_acq_landing_meta_general-posgrados-2027-1",
+      380731.0
      ],
      [
       "meta",
       "120226861113850043",
       "adcom_ucorpas_fb_acq_landing_meta_pregrado-medicina-2027-1",
-      26658.0
+      320201.0
      ],
      [
       "meta",
-      "120251120988640043",
-      "adcom_ucorpas_fb_awa_meta_branding-pregrados-2027-1",
-      19693.0
-     ],
-     [
-      "meta",
-      "120251120989420043",
-      "adcom_ucorpas_fb_awa_meta_branding-posgrados-2027-1",
-      18798.0
-     ],
-     [
-      "google",
-      "24384704856",
-      "adcom_ucorpas_gg_acq_dgen_branding_pregrados-2027-1",
-      16637.01
-     ],
-     [
-      "meta",
-      "120251120987080043",
-      "adcom_ucorpas_fb_acq_landing_meta_general-pregrados-2027-1",
-      13447.0
-     ],
-     [
-      "google",
-      "24395866075",
-      "adcom_ucorpas_gg_acq_dgen_branding_posgrados-2027-1",
-      11602.22
-     ],
-     [
-      "meta",
-      "120251118040700043",
-      "adcom_ucorpas_fb_acq_landing-quiz_meta_pregrado-medicina-2027-1",
-      8339.0
-     ],
-     [
-      "google",
-      "21334639191",
-      "adcom_ucorpas_gg_acq_search_pregrado-medicina-2027-1",
-      7999.0
-     ],
-     [
-      "google",
-      "24395778478",
-      "adcom_ucorpas_gg_acq_search_general_pregrados-2027-1",
-      4525.0
+      "120251064449540043",
+      "adcom_ucorpas_fb_acq_landing-video_meta_pregrado-medicina-2027-1",
+      267979.0
      ],
      [
       "google",
       "24384621003",
       "adcom_ucorpas_gg_acq_search_general_posgrados-2027-1",
-      1775.0
+      160569.95
+     ],
+     [
+      "meta",
+      "120251120987080043",
+      "adcom_ucorpas_fb_acq_landing_meta_general-pregrados-2027-1",
+      123760.0
+     ],
+     [
+      "meta",
+      "120251118040700043",
+      "adcom_ucorpas_fb_acq_landing-quiz_meta_pregrado-medicina-2027-1",
+      109600.0
+     ],
+     [
+      "google",
+      "24395778478",
+      "adcom_ucorpas_gg_acq_search_general_pregrados-2027-1",
+      94857.89
+     ],
+     [
+      "google",
+      "24384704856",
+      "adcom_ucorpas_gg_acq_dgen_branding_pregrados-2027-1",
+      88366.97
+     ],
+     [
+      "meta",
+      "120251120989420043",
+      "adcom_ucorpas_fb_awa_meta_branding-posgrados-2027-1",
+      78063.0
+     ],
+     [
+      "meta",
+      "120251120988640043",
+      "adcom_ucorpas_fb_awa_meta_branding-pregrados-2027-1",
+      77981.0
+     ],
+     [
+      "google",
+      "24395866075",
+      "adcom_ucorpas_gg_acq_dgen_branding_posgrados-2027-1",
+      62149.54
      ]
     ]
    }
