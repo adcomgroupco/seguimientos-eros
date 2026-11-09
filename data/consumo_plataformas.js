@@ -1,5 +1,5 @@
 window.SPEND_DATA = {
- "generated_at": "2026-11-09T05:18",
+ "generated_at": "2026-11-09T05:19",
  "since": "2025-09-01",
  "until": "2026-11-09",
  "clients": {
@@ -166,9 +166,9 @@ window.SPEND_DATA = {
      "google": 90313050.4
     },
     "2026-11": {
-     "meta": 18247652.0,
+     "meta": 18247875.0,
      "tiktok": 18374057.7,
-     "google": 16071213.41
+     "google": 16072326.3
     }
    },
    "campaigns": {
@@ -1459,13 +1459,13 @@ window.SPEND_DATA = {
       "google",
       "23771945181",
       "adcom_baloto_gg_awa_search_category_trafico_awa_googleads",
-      7772275.68
+      7772307.68
      ],
      [
       "google",
       "23767709733",
       "adcom_baloto_gg_awa_search_competencia_trafico_awa_googleads",
-      5009815.39
+      5010841.39
      ],
      [
       "meta",
@@ -1483,7 +1483,7 @@ window.SPEND_DATA = {
       "google",
       "23555995864",
       "adcom_baloto_gg_traf_pmax_trafico_traf_googleads",
-      3289122.34
+      3289177.23
      ],
      [
       "tiktok",
@@ -1519,7 +1519,7 @@ window.SPEND_DATA = {
       "meta",
       "120244686627750680",
       "adcom_miloto_fb_ret_conversion-rmkt-ret_miloto",
-      1196872.0
+      1197055.0
      ],
      [
       "meta",
@@ -1555,7 +1555,7 @@ window.SPEND_DATA = {
       "meta",
       "120231325684940680",
       "adcom_baloto_fb_act_conversion-rmkt-crm_act",
-      479195.0
+      479235.0
      ]
     ]
    }
@@ -1939,7 +1939,7 @@ window.SPEND_DATA = {
      "meta": 12805436.0
     },
     "2026-11": {
-     "meta": 4218629.0
+     "meta": 4219006.0
     }
    },
    "campaigns": {
@@ -2288,19 +2288,19 @@ window.SPEND_DATA = {
       "meta",
       "120228286141930336",
       "4. Adcom - Campaña Conversiones  - Solicitud credito",
-      2878332.0
+      2878505.0
      ],
      [
       "meta",
       "120227756872800336",
       "3. Adcom - Campaña Conversiones  - Inicio inscripción",
-      1138013.0
+      1138054.0
      ],
      [
       "meta",
       "120250296514630336",
       "7. Adcom - Remarketing CRM - Solicitud credito",
-      202284.0
+      202447.0
      ]
     ]
    }
@@ -8492,7 +8492,7 @@ window.SPEND_DATA = {
      "tiktok": 0.0
     },
     "2026-11": {
-     "meta": 9535870.0,
+     "meta": 9537144.0,
      "google": 13616201.69,
      "tiktok": 219478.08
     }
@@ -10623,7 +10623,7 @@ window.SPEND_DATA = {
       "meta",
       "120251120987530043",
       "adcom_ucorpas_fb_acq_landing_meta_general-posgrados-2027-1",
-      3087143.0
+      3087503.0
      ],
      [
       "meta",
@@ -10641,7 +10641,7 @@ window.SPEND_DATA = {
       "meta",
       "120251064449540043",
       "adcom_ucorpas_fb_acq_landing-video_meta_pregrado-medicina-2027-1",
-      1834826.0
+      1834877.0
      ],
      [
       "google",
@@ -10653,7 +10653,7 @@ window.SPEND_DATA = {
       "meta",
       "120251120987080043",
       "adcom_ucorpas_fb_acq_landing_meta_general-pregrados-2027-1",
-      936794.0
+      937565.0
      ],
      [
       "google",
@@ -10683,13 +10683,13 @@ window.SPEND_DATA = {
       "meta",
       "120251120989420043",
       "adcom_ucorpas_fb_awa_meta_branding-posgrados-2027-1",
-      433090.0
+      433124.0
      ],
      [
       "meta",
       "120251120988640043",
       "adcom_ucorpas_fb_awa_meta_branding-pregrados-2027-1",
-      405151.0
+      405209.0
      ],
      [
       "google",
