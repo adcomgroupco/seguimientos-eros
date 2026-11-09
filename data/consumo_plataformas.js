@@ -1,7 +1,7 @@
 window.SPEND_DATA = {
- "generated_at": "2026-11-05T07:49",
+ "generated_at": "2026-11-09T05:18",
  "since": "2025-09-01",
- "until": "2026-11-05",
+ "until": "2026-11-09",
  "clients": {
   "baloto": {
    "name": "Baloto",
@@ -95,9 +95,9 @@ window.SPEND_DATA = {
    "errors": [],
    "foreign_currency": {},
    "fechas": {
-    "meta": "2026-11-05",
-    "tiktok": "2026-11-05",
-    "google": "2026-11-05"
+    "meta": "2026-11-09",
+    "tiktok": "2026-11-09",
+    "google": "2026-11-09"
    },
    "spend": {
     "2025-09": {
@@ -166,9 +166,9 @@ window.SPEND_DATA = {
      "google": 90313050.4
     },
     "2026-11": {
-     "meta": 8170658.0,
-     "tiktok": 10442004.26,
-     "google": 7790414.06
+     "meta": 18247652.0,
+     "tiktok": 18374057.7,
+     "google": 16071213.41
     }
    },
    "campaigns": {
@@ -1453,109 +1453,109 @@ window.SPEND_DATA = {
       "tiktok",
       "1856779037881585",
       "adcom_baloto_tiktok_acq_conversion-registros",
-      7290678.06
+      12634190.26
      ],
      [
       "google",
       "23771945181",
       "adcom_baloto_gg_awa_search_category_trafico_awa_googleads",
-      3544381.15
+      7772275.68
      ],
      [
       "google",
       "23767709733",
       "adcom_baloto_gg_awa_search_competencia_trafico_awa_googleads",
-      2694790.0
-     ],
-     [
-      "meta",
-      "120217605484200680",
-      "adcom_baloto_fb_ret_conversion-rmkt-ret_acumulado",
-      2173870.0
+      5009815.39
      ],
      [
       "meta",
       "120223284865130680",
       "adcom_baloto_fb_acq_meta_conversion-acq_influencers_meta",
-      1990899.0
+      4324219.0
      ],
      [
-      "tiktok",
-      "1879410124717122",
-      "adcom_baloto_tiktok_ret_conversion-rmkt-ret_acumulado",
-      1638770.13
+      "meta",
+      "120217605484200680",
+      "adcom_baloto_fb_ret_conversion-rmkt-ret_acumulado",
+      3568364.0
      ],
      [
       "google",
       "23555995864",
       "adcom_baloto_gg_traf_pmax_trafico_traf_googleads",
-      1551242.91
+      3289122.34
+     ],
+     [
+      "tiktok",
+      "1879410124717122",
+      "adcom_baloto_tiktok_ret_conversion-rmkt-ret_acumulado",
+      2809271.65
      ],
      [
       "meta",
       "120237089274450680",
       "adcom_miloto_fb_ret_conversion-rmkt-ret_acumulado",
-      1105885.0
-     ],
-     [
-      "tiktok",
-      "1868190541111394",
-      "adcom_miloto_tiktok_ret_conversion-rmkt-ret_miloto",
-      861625.45
-     ],
-     [
-      "meta",
-      "120247777758400680",
-      "adcom_baloto_fb_act_conversion_promocional-italia",
-      652247.0
-     ],
-     [
-      "tiktok",
-      "1878953146799489",
-      "adcom_baloto_tiktok_act_conversion_promocional-italia_2",
-      650930.62
-     ],
-     [
-      "meta",
-      "120244686627750680",
-      "adcom_miloto_fb_ret_conversion-rmkt-ret_miloto",
-      612811.0
-     ],
-     [
-      "meta",
-      "120247968281870680",
-      "adcom_baloto_fb_awa_alcance_recordaciondemarca",
-      437034.0
-     ],
-     [
-      "meta",
-      "120246246531630680",
-      "adcom_baloto_fb_ret_conversion-rmkt-ret_cobrodepremios",
-      413137.0
-     ],
-     [
-      "meta",
-      "120240269554840680",
-      "adcom_baloto_fb_act_conversion_videos",
-      281377.0
-     ],
-     [
-      "meta",
-      "120231325684940680",
-      "adcom_baloto_fb_act_conversion-rmkt-crm_act",
-      268932.0
+      2185435.0
      ],
      [
       "meta",
       "120248278061500680",
       "adcom_baloto_fb_act_conversion_cali",
-      126647.0
+      1984630.0
+     ],
+     [
+      "tiktok",
+      "1868190541111394",
+      "adcom_miloto_tiktok_ret_conversion-rmkt-ret_miloto",
+      1795297.17
+     ],
+     [
+      "meta",
+      "120247777758400680",
+      "adcom_baloto_fb_act_conversion_promocional-italia",
+      1386769.0
+     ],
+     [
+      "meta",
+      "120244686627750680",
+      "adcom_miloto_fb_ret_conversion-rmkt-ret_miloto",
+      1196872.0
+     ],
+     [
+      "meta",
+      "120247968281870680",
+      "adcom_baloto_fb_awa_alcance_recordaciondemarca",
+      1139193.0
+     ],
+     [
+      "tiktok",
+      "1878953146799489",
+      "adcom_baloto_tiktok_act_conversion_promocional-italia_2",
+      1135298.62
+     ],
+     [
+      "meta",
+      "120246246531630680",
+      "adcom_baloto_fb_ret_conversion-rmkt-ret_cobrodepremios",
+      853718.0
+     ],
+     [
+      "meta",
+      "120240269554840680",
+      "adcom_baloto_fb_act_conversion_videos",
+      583241.0
      ],
      [
       "meta",
       "120238152745210680",
       "adcom_colorloto_fb_ret_conversion-rmkt-ret_acumulado",
-      107819.0
+      546016.0
+     ],
+     [
+      "meta",
+      "120231325684940680",
+      "adcom_baloto_fb_act_conversion-rmkt-crm_act",
+      479195.0
      ]
     ]
    }
@@ -1642,8 +1642,8 @@ window.SPEND_DATA = {
    "errors": [],
    "foreign_currency": {},
    "fechas": {
-    "meta": "2026-11-05",
-    "tiktok": "2026-11-05"
+    "meta": "2026-11-09",
+    "tiktok": "2026-11-09"
    },
    "spend": {
     "2025-09": {
@@ -1690,8 +1690,8 @@ window.SPEND_DATA = {
      "tiktok": 0.0
     },
     "2026-11": {
-     "meta": 1918.01,
-     "tiktok": 150.24
+     "meta": 3598.77,
+     "tiktok": 561.04
     }
    },
    "campaigns": {
@@ -1794,49 +1794,61 @@ window.SPEND_DATA = {
       "meta",
       "120248207748350656",
       "adcom_megaloto_fb_conv_meta_one-activos",
-      631.48
+      1178.48
      ],
      [
       "meta",
       "120248282497530656",
       "adcom_megaloto_fb_conv_meta_riesgo",
-      450.36
-     ],
-     [
-      "meta",
-      "120248149964340656",
-      "adcom_megaloto_fb_awa_meta_videoviews-awa",
-      226.42
+      857.25
      ],
      [
       "meta",
       "120248282625860656",
       "adcom_megaloto_fb_conv_meta_nuevos",
-      218.57
+      418.18
      ],
      [
       "meta",
-      "120248207356750656",
-      "adcom_megaloto_fb_conv_meta_cons-meta",
-      164.97
+      "120248149964340656",
+      "adcom_megaloto_fb_awa_meta_videoviews-awa",
+      402.77
      ],
      [
       "tiktok",
       "1876337946720449",
       "adcom_megaloto_tt_conv_tiktok_cons-tiktok",
-      150.24
+      362.4
+     ],
+     [
+      "meta",
+      "120248207356750656",
+      "adcom_megaloto_fb_conv_meta_cons-meta",
+      352.17
      ],
      [
       "meta",
       "120248207032060656",
       "adcom_megaloto_fb_awa_meta_trafico-awa",
-      129.9
+      224.04
      ],
      [
       "meta",
       "120248168705980656",
       "adcom_megaloto_fb_awa_meta_interaccion_rrss",
-      96.31
+      165.88
+     ],
+     [
+      "tiktok",
+      "1881117051894977",
+      "adcom_megaloto_tt_conv_tiktok_conversion",
+      118.73
+     ],
+     [
+      "tiktok",
+      "1881117047068993",
+      "adcom_megaloto_tt_awa_tiktok_video-views-awa",
+      79.91
      ]
     ]
    }
@@ -1881,7 +1893,7 @@ window.SPEND_DATA = {
    "errors": [],
    "foreign_currency": {},
    "fechas": {
-    "meta": "2026-11-05"
+    "meta": "2026-11-09"
    },
    "spend": {
     "2025-09": {
@@ -1927,7 +1939,7 @@ window.SPEND_DATA = {
      "meta": 12805436.0
     },
     "2026-11": {
-     "meta": 1745799.0
+     "meta": 4218629.0
     }
    },
    "campaigns": {
@@ -2276,19 +2288,19 @@ window.SPEND_DATA = {
       "meta",
       "120228286141930336",
       "4. Adcom - Campaña Conversiones  - Solicitud credito",
-      1075060.0
+      2878332.0
      ],
      [
       "meta",
       "120227756872800336",
       "3. Adcom - Campaña Conversiones  - Inicio inscripción",
-      565365.0
+      1138013.0
      ],
      [
       "meta",
       "120250296514630336",
       "7. Adcom - Remarketing CRM - Solicitud credito",
-      105374.0
+      202284.0
      ]
     ]
    }
@@ -2339,8 +2351,8 @@ window.SPEND_DATA = {
    "errors": [],
    "foreign_currency": {},
    "fechas": {
-    "meta": "2026-11-05",
-    "google": "2026-11-05"
+    "meta": "2026-11-09",
+    "google": "2026-11-09"
    },
    "spend": {
     "2025-10": {
@@ -2395,8 +2407,8 @@ window.SPEND_DATA = {
      "google": 4144983.0
     },
     "2026-11": {
-     "meta": 388324.0,
-     "google": 173606.57
+     "meta": 814942.0,
+     "google": 398242.8
     }
    },
    "campaigns": {
@@ -2839,19 +2851,19 @@ window.SPEND_DATA = {
       "meta",
       "120246958601260544",
       "adcom_lasalle_meta_conv_campaña-todos",
-      219579.0
+      458253.0
      ],
      [
       "google",
       "23229352285",
       "adcom_lasalle_gg_conv_search_campaña-general-institucional",
-      173606.57
+      398242.8
      ],
      [
       "meta",
       "120249711860260544",
       "adcom_lasalle_meta_conv_form_campaña_all",
-      168745.0
+      356689.0
      ]
     ]
    }
@@ -2917,8 +2929,8 @@ window.SPEND_DATA = {
    "errors": [],
    "foreign_currency": {},
    "fechas": {
-    "meta": "2026-11-05",
-    "google": "2026-11-05"
+    "meta": "2026-11-09",
+    "google": "2026-11-09"
    },
    "spend": {
     "2025-09": {
@@ -2978,8 +2990,8 @@ window.SPEND_DATA = {
      "google": 11992946.69
     },
     "2026-11": {
-     "meta": 839273.0,
-     "google": 3122784.52
+     "meta": 1251834.0,
+     "google": 5078792.38
     }
    },
    "campaigns": {
@@ -8020,295 +8032,301 @@ window.SPEND_DATA = {
       "google",
       "24391969822",
       "1.46 Licenciatura en Lenguas Extranjeras",
-      217313.34
+      302377.96
      ],
      [
       "google",
       "24386034152",
       "1.48 Maestría en Derecho",
-      189204.99
+      272793.22
      ],
      [
       "google",
       "24380696553",
       "1.47 Especialización en Educación para Profesionales de la Salud",
-      178635.36
+      257056.63
      ],
      [
       "meta",
       "120254355515270332",
       "UPB VIRTUAL - EVENTO - Maestría en Diseño Nov 05",
-      170687.0
+      238722.0
      ],
      [
       "meta",
       "120213974538370332",
       "1.1. PosgradosProyectos_Carrusel_Meta_UPB Virtual",
-      122036.0
-     ],
-     [
-      "meta",
-      "120213973594440332",
-      "1.4. Educación_Carrusel_Meta_UPB Virtual",
-      120434.0
+      160003.0
      ],
      [
       "meta",
       "120213974635030332",
       "1.3. Comunicación_Carrusel_Meta_UPB Virtual",
-      117877.0
+      158272.0
      ],
      [
       "meta",
       "120211611361560332",
       "1.9 Derecho_Carrusel_Meta_UPB Virtual",
-      113429.0
-     ],
-     [
-      "google",
-      "15558399594",
-      "1.31. Especialización en Seguridad Infomática",
-      82909.3
-     ],
-     [
-      "google",
-      "22373990109",
-      "1.32 Maestría Ciencia de Datos",
-      80105.64
-     ],
-     [
-      "google",
-      "23174653424",
-      "1.44 Licenciatura en Tecnología Educativa",
-      77901.0
-     ],
-     [
-      "google",
-      "21640866712",
-      "1.15 Especialización en Finanzas",
-      77658.8
-     ],
-     [
-      "google",
-      "15558399591",
-      "1.27. Especialización en Gestión de Sostenibilidad",
-      77497.07
-     ],
-     [
-      "google",
-      "12645316481",
-      "1.26 Especialización en Preservación y Conservación de los Recursos Naturales 2025",
-      77485.19
+      155812.0
      ],
      [
       "meta",
-      "120254073366310332",
-      "2.3 Especializacion Educacion para profesionales de la salud_Carrusel_Meta_UPB Virtual",
-      77255.0
-     ],
-     [
-      "google",
-      "12691787957",
-      "1.17 Maestría Comunicación Digital",
-      77079.21
-     ],
-     [
-      "google",
-      "21481906459",
-      "1.36 Especializacion en Legislación Tributaria",
-      76756.62
-     ],
-     [
-      "google",
-      "12658138751",
-      "1.151 Especialización Comunicación y Periodismo Digital",
-      76326.98
-     ],
-     [
-      "google",
-      "23731036056",
-      "1.12 Especialización en Gerencia de proyectos",
-      76214.19
+      "120213973594440332",
+      "1.4. Educación_Carrusel_Meta_UPB Virtual",
+      152730.0
      ],
      [
       "google",
       "22380311486",
       "1.25 Maestría Filosofía",
-      76169.54
-     ],
-     [
-      "google",
-      "23174653427",
-      "1.45 Licenciatura en Literatura y Lengua Castellana",
-      76091.42
-     ],
-     [
-      "google",
-      "21585600939",
-      "1.41 Tecnologia en Animación",
-      75876.47
-     ],
-     [
-      "google",
-      "12645808065",
-      "1.16 Especialización en Gestión Estratégica de la Comunicación",
-      73633.8
-     ],
-     [
-      "google",
-      "21417129080",
-      "1.40 Pregrado en Ingenieria de Software",
-      73456.52
-     ],
-     [
-      "google",
-      "21080384397",
-      "1.34 Especialización en Gobierno Territorio y Desarrollo",
-      73427.7
-     ],
-     [
-      "google",
-      "22398922303",
-      "1.18 Maestría Diseño",
-      73108.79
-     ],
-     [
-      "google",
-      "18204611641",
-      "1.13 Especialización en Gerencia",
-      72985.99
-     ],
-     [
-      "google",
-      "12691832858",
-      "1.22 Maestría en Educación",
-      72754.63
-     ],
-     [
-      "google",
-      "18204611650",
-      "1.11 Maestría en Gestión de la Información y el Conocimiento",
-      72704.26
-     ],
-     [
-      "google",
-      "21080384394",
-      "1.38 Especialización en Gestión Humana",
-      71681.05
-     ],
-     [
-      "google",
-      "22377784935",
-      "1.29 Maestría energías renovables para la transición energética",
-      71363.88
-     ],
-     [
-      "google",
-      "12691949678",
-      "1.28 Maestría en Sostenibilidad",
-      70386.16
-     ],
-     [
-      "google",
-      "21585600405",
-      "1.14  MBA en Administración",
-      69174.76
-     ],
-     [
-      "google",
-      "12644956684",
-      "1.33 Maestría Innovación Social y Territorio",
-      69121.17
-     ],
-     [
-      "google",
-      "12645050540",
-      "1.30 Especialización en Gerencia de Tecnologías de Información",
-      67793.82
+      129984.69
      ],
      [
       "google",
       "22365562513",
       "1.23 Maestría en Innovación Educativa",
-      67615.83
+      129356.13
      ],
      [
       "google",
-      "21481906462",
-      "1.37 Especializacion en Derecho de Familia, Infancia y Adolecencia 2025",
-      66020.0
+      "12644956684",
+      "1.33 Maestría Innovación Social y Territorio",
+      126158.61
      ],
      [
       "google",
-      "12657964231",
-      "1. Campaña General UPB Virtual",
-      65100.16
+      "18204611650",
+      "1.11 Maestría en Gestión de la Información y el Conocimiento",
+      124883.59
+     ],
+     [
+      "google",
+      "15558399594",
+      "1.31. Especialización en Seguridad Infomática",
+      124644.9
+     ],
+     [
+      "google",
+      "12691949678",
+      "1.28 Maestría en Sostenibilidad",
+      124553.12
+     ],
+     [
+      "google",
+      "12645316481",
+      "1.26 Especialización en Preservación y Conservación de los Recursos Naturales 2025",
+      124257.06
+     ],
+     [
+      "google",
+      "22373990109",
+      "1.32 Maestría Ciencia de Datos",
+      123780.43
+     ],
+     [
+      "google",
+      "21585600939",
+      "1.41 Tecnologia en Animación",
+      123748.8
+     ],
+     [
+      "google",
+      "21481906459",
+      "1.36 Especializacion en Legislación Tributaria",
+      123716.15
+     ],
+     [
+      "google",
+      "22398922303",
+      "1.18 Maestría Diseño",
+      123224.27
+     ],
+     [
+      "google",
+      "23174653424",
+      "1.44 Licenciatura en Tecnología Educativa",
+      122914.27
+     ],
+     [
+      "google",
+      "15558399591",
+      "1.27. Especialización en Gestión de Sostenibilidad",
+      122654.64
+     ],
+     [
+      "google",
+      "21417129080",
+      "1.40 Pregrado en Ingenieria de Software",
+      122348.13
+     ],
+     [
+      "google",
+      "21640866712",
+      "1.15 Especialización en Finanzas",
+      122162.8
+     ],
+     [
+      "google",
+      "22377784935",
+      "1.29 Maestría energías renovables para la transición energética",
+      121344.49
+     ],
+     [
+      "google",
+      "21080384394",
+      "1.38 Especialización en Gestión Humana",
+      121101.8
+     ],
+     [
+      "google",
+      "21585600405",
+      "1.14  MBA en Administración",
+      120427.24
+     ],
+     [
+      "google",
+      "18204611641",
+      "1.13 Especialización en Gerencia",
+      120314.29
+     ],
+     [
+      "google",
+      "12645808065",
+      "1.16 Especialización en Gestión Estratégica de la Comunicación",
+      119895.73
+     ],
+     [
+      "google",
+      "12691787957",
+      "1.17 Maestría Comunicación Digital",
+      119889.26
+     ],
+     [
+      "google",
+      "12691832858",
+      "1.22 Maestría en Educación",
+      119616.73
+     ],
+     [
+      "google",
+      "23731036056",
+      "1.12 Especialización en Gerencia de proyectos",
+      119098.34
+     ],
+     [
+      "google",
+      "23174653427",
+      "1.45 Licenciatura en Literatura y Lengua Castellana",
+      119086.91
+     ],
+     [
+      "google",
+      "12658138751",
+      "1.151 Especialización Comunicación y Periodismo Digital",
+      118280.34
+     ],
+     [
+      "meta",
+      "120254073366310332",
+      "2.3 Especializacion Educacion para profesionales de la salud_Carrusel_Meta_UPB Virtual",
+      117358.0
      ],
      [
       "google",
       "12645612195",
       "1.24 Maestría en Literatura",
-      64892.0
+      115802.09
      ],
      [
       "google",
-      "21489280780",
-      "1.42 Pregrado en Administración de Empresas",
-      64338.34
+      "21080384397",
+      "1.34 Especialización en Gobierno Territorio y Desarrollo",
+      114292.69
      ],
      [
       "google",
-      "23736231542",
-      "1.39 Maestria en Gestión Humana para organizaciones saludables",
-      62596.76
+      "21481906462",
+      "1.37 Especializacion en Derecho de Familia, Infancia y Adolecencia 2025",
+      113748.38
      ],
      [
       "google",
       "12691008426",
       "1.21 Maestría en Ciencias Naturales y Matemática",
-      59244.0
+      112970.38
+     ],
+     [
+      "google",
+      "12645050540",
+      "1.30 Especialización en Gerencia de Tecnologías de Información",
+      112596.82
+     ],
+     [
+      "google",
+      "12657964231",
+      "1. Campaña General UPB Virtual",
+      112374.17
+     ],
+     [
+      "google",
+      "21489280780",
+      "1.42 Pregrado en Administración de Empresas",
+      112308.04
+     ],
+     [
+      "google",
+      "23736231542",
+      "1.39 Maestria en Gestión Humana para organizaciones saludables",
+      111082.2
      ],
      [
       "google",
       "21481906456",
       "1.35  Especializacion en Derecho Procesal",
-      59238.44
+      109638.68
      ],
      [
       "google",
       "22399009627",
       "1.43 Pregrado Publicidad y Marketing digital",
-      54848.83
+      105977.83
+     ],
+     [
+      "meta",
+      "120254537819790332",
+      "UPB VIRTUAL - EVENTO - Maestría Ciencia de datos Nov 17",
+      82302.0
      ],
      [
       "meta",
       "120211419503660332",
       "1.9.3 IngenieríaSoftware_Post_Meta_UPB Virtual",
-      48129.0
-     ],
-     [
-      "meta",
-      "120211942008220332",
-      "1.9.5 AdministraciónEmpresas_Post_Meta_UPB Virtual",
-      34284.0
+      67944.0
      ],
      [
       "google",
       "22399044850",
       "1.19 Maestría Marketing digital",
-      34072.51
+      58330.57
+     ],
+     [
+      "meta",
+      "120211942008220332",
+      "1.9.5 AdministraciónEmpresas_Post_Meta_UPB Virtual",
+      57624.0
      ],
      [
       "meta",
       "120219736168600332",
       "1.9.9 Diseño_Carrusel_Meta_UPB Virtual",
-      22271.0
+      47970.0
      ],
      [
       "meta",
       "120209099884890332",
       "1.8 DesarrolloSocial&Territorio_Carrusel_Meta_UPB Virtual",
-      8102.0
+      8129.0
      ],
      [
       "meta",
@@ -8339,6 +8357,12 @@ window.SPEND_DATA = {
       "120219734594150332",
       "1.6 Filosofía&Literatura_Carrusel_Meta_UPB Virtual",
       280.0
+     ],
+     [
+      "meta",
+      "120254488100210332",
+      "1.9.10 MarketingDigital_Carrusel_Meta_UPB Virtual",
+      199.0
      ],
      [
       "meta",
@@ -8394,9 +8418,9 @@ window.SPEND_DATA = {
    "errors": [],
    "foreign_currency": {},
    "fechas": {
-    "meta": "2026-11-05",
-    "google": "2026-11-05",
-    "tiktok": "2026-11-05"
+    "meta": "2026-11-09",
+    "google": "2026-11-09",
+    "tiktok": "2026-11-09"
    },
    "spend": {
     "2025-09": {
@@ -8468,9 +8492,9 @@ window.SPEND_DATA = {
      "tiktok": 0.0
     },
     "2026-11": {
-     "meta": 4658142.0,
-     "google": 7443904.6,
-     "tiktok": 0.0
+     "meta": 9535870.0,
+     "google": 13616201.69,
+     "tiktok": 219478.08
     }
    },
    "campaigns": {
@@ -8490,7 +8514,7 @@ window.SPEND_DATA = {
      [
       "google",
       "22845714416",
-      "adcom_ucorpas_gg_acq_search_mba",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
       455986.51
      ],
      [
@@ -8544,19 +8568,19 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311024",
-      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
       151981.73
      ],
      [
       "google",
       "20987124610",
-      "adcom_ucorpas_gg_acq_search_premedico-2026-2",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
       151786.02
      ],
      [
       "google",
       "20856311018",
-      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
       150899.9
      ],
      [
@@ -8624,7 +8648,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311018",
-      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
       3714745.81
      ],
      [
@@ -8642,7 +8666,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20987124610",
-      "adcom_ucorpas_gg_acq_search_premedico-2026-2",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
       2025352.85
      ],
      [
@@ -8654,25 +8678,25 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311021",
-      "adcom_ucorpas_gg_acq_search_pregrado-musica-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-musica-2027-1",
       1668514.74
      ],
      [
       "google",
       "22845714416",
-      "adcom_ucorpas_gg_acq_search_mba",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
       1374877.08
      ],
      [
       "google",
       "20856311030",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2027-1",
       1292828.44
      ],
      [
       "google",
       "20856311024",
-      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
       1274401.55
      ],
      [
@@ -8684,13 +8708,13 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311027",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2027-1",
       1266461.14
      ],
      [
       "google",
       "20856311039",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2027-1",
       1249574.12
      ],
      [
@@ -8702,19 +8726,19 @@ window.SPEND_DATA = {
      [
       "google",
       "23081057941",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2027-1",
       1051615.31
      ],
      [
       "google",
       "23082082315",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-tafv-2026-I",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-tafv-2027-1",
       698958.39
      ],
      [
       "google",
       "22609341590",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2027-1",
       685829.21
      ],
      [
@@ -8842,7 +8866,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311018",
-      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
       4855403.15
      ],
      [
@@ -8860,7 +8884,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20987124610",
-      "adcom_ucorpas_gg_acq_search_premedico-2026-2",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
       2689149.18
      ],
      [
@@ -8872,25 +8896,25 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311021",
-      "adcom_ucorpas_gg_acq_search_pregrado-musica-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-musica-2027-1",
       2308566.85
      ],
      [
       "google",
       "20856311030",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2027-1",
       1778105.27
      ],
      [
       "google",
       "20856311039",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2027-1",
       1772607.7
      ],
      [
       "google",
       "20856311027",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2027-1",
       1746343.96
      ],
      [
@@ -8908,25 +8932,25 @@ window.SPEND_DATA = {
      [
       "google",
       "22845714416",
-      "adcom_ucorpas_gg_acq_search_mba",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
       1602640.87
      ],
      [
       "google",
       "20856311024",
-      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
       1316473.49
      ],
      [
       "google",
       "23081057941",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2027-1",
       1279535.88
      ],
      [
       "google",
       "22609341590",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2027-1",
       1128268.63
      ],
      [
@@ -9024,7 +9048,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311018",
-      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
       3980964.09
      ],
      [
@@ -9042,7 +9066,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20987124610",
-      "adcom_ucorpas_gg_acq_search_premedico-2026-2",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
       2149275.42
      ],
      [
@@ -9054,25 +9078,25 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311021",
-      "adcom_ucorpas_gg_acq_search_pregrado-musica-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-musica-2027-1",
       1854516.76
      ],
      [
       "google",
       "20856311039",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2027-1",
       1424476.85
      ],
      [
       "google",
       "20856311030",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2027-1",
       1389517.09
      ],
      [
       "google",
       "20856311027",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2027-1",
       1385872.54
      ],
      [
@@ -9090,19 +9114,19 @@ window.SPEND_DATA = {
      [
       "google",
       "22845714416",
-      "adcom_ucorpas_gg_acq_search_mba",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
       1324576.13
      ],
      [
       "google",
       "20856311024",
-      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
       1104955.36
      ],
      [
       "google",
       "23081057941",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2027-1",
       1053524.73
      ],
      [
@@ -9126,7 +9150,7 @@ window.SPEND_DATA = {
      [
       "google",
       "22609341590",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2027-1",
       689243.43
      ],
      [
@@ -9242,7 +9266,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311018",
-      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
       1284098.73
      ],
      [
@@ -9278,7 +9302,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20987124610",
-      "adcom_ucorpas_gg_acq_search_premedico-2026-2",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
       695794.65
      ],
      [
@@ -9302,7 +9326,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311021",
-      "adcom_ucorpas_gg_acq_search_pregrado-musica-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-musica-2027-1",
       627864.39
      ],
      [
@@ -9344,19 +9368,19 @@ window.SPEND_DATA = {
      [
       "google",
       "22845714416",
-      "adcom_ucorpas_gg_acq_search_mba",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
       535625.12
      ],
      [
       "google",
       "20856311039",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2027-1",
       485349.8
      ],
      [
       "google",
       "20856311027",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2027-1",
       467319.13
      ],
      [
@@ -9368,7 +9392,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311030",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2027-1",
       436874.36
      ],
      [
@@ -9380,13 +9404,13 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311024",
-      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
       400336.62
      ],
      [
       "google",
       "23081057941",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2027-1",
       353180.74
      ],
      [
@@ -9404,7 +9428,7 @@ window.SPEND_DATA = {
      [
       "google",
       "22609341590",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2027-1",
       276994.33
      ]
     ],
@@ -9508,7 +9532,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311018",
-      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
       209929.02
      ],
      [
@@ -9532,13 +9556,13 @@ window.SPEND_DATA = {
      [
       "google",
       "20987124610",
-      "adcom_ucorpas_gg_acq_search_premedico-2026-2",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
       117193.85
      ],
      [
       "google",
       "20856311021",
-      "adcom_ucorpas_gg_acq_search_pregrado-musica-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-musica-2027-1",
       105059.54
      ],
      [
@@ -9562,43 +9586,43 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311024",
-      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
       77379.41
      ],
      [
       "google",
       "22845714416",
-      "adcom_ucorpas_gg_acq_search_mba",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
       73077.07
      ],
      [
       "google",
       "20856311030",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2027-1",
       62591.03
      ],
      [
       "google",
       "20856311039",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2027-1",
       61585.63
      ],
      [
       "google",
       "20856311027",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2027-1",
       53637.66
      ],
      [
       "google",
       "23081057941",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2027-1",
       48146.82
      ],
      [
       "google",
       "22609341590",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2027-1",
       29374.66
      ]
     ],
@@ -9642,13 +9666,13 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311018",
-      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
       929783.55
      ],
      [
       "google",
       "20987124610",
-      "adcom_ucorpas_gg_acq_search_premedico-2026-2",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
       884259.09
      ],
      [
@@ -9720,13 +9744,13 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311024",
-      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
       262277.77
      ],
      [
       "google",
       "22845714416",
-      "adcom_ucorpas_gg_acq_search_mba",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
       250394.84
      ],
      [
@@ -9744,7 +9768,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311021",
-      "adcom_ucorpas_gg_acq_search_pregrado-musica-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-musica-2027-1",
       164186.36
      ],
      [
@@ -9756,31 +9780,31 @@ window.SPEND_DATA = {
      [
       "google",
       "22609341590",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2027-1",
       106484.51
      ],
      [
       "google",
       "20856311027",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2027-1",
       106374.42
      ],
      [
       "google",
       "20856311030",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2027-1",
       59542.97
      ],
      [
       "google",
       "20856311039",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2027-1",
       45598.78
      ],
      [
       "google",
       "23081057941",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2027-1",
       23644.7
      ]
     ],
@@ -9830,13 +9854,13 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311018",
-      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
       1194918.59
      ],
      [
       "google",
       "20987124610",
-      "adcom_ucorpas_gg_acq_search_premedico-2026-2",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
       1040109.16
      ],
      [
@@ -9884,43 +9908,43 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311021",
-      "adcom_ucorpas_gg_acq_search_pregrado-musica-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-musica-2027-1",
       616717.5
      ],
      [
       "google",
       "20856311024",
-      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
       604114.46
      ],
      [
       "google",
       "20856311039",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2027-1",
       255031.32
      ],
      [
       "google",
       "22845714416",
-      "adcom_ucorpas_gg_acq_search_mba",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
       224824.16
      ],
      [
       "google",
       "20856311030",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2027-1",
       200552.53
      ],
      [
       "google",
       "23081057941",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2027-1",
       199300.37
      ],
      [
       "google",
       "20856311027",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2027-1",
       194519.12
      ],
      [
@@ -9932,7 +9956,7 @@ window.SPEND_DATA = {
      [
       "google",
       "22609341590",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2027-1",
       84078.39
      ],
      [
@@ -9982,13 +10006,13 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311018",
-      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
       1764377.21
      ],
      [
       "google",
       "20987124610",
-      "adcom_ucorpas_gg_acq_search_premedico-2026-2",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
       1520579.99
      ],
      [
@@ -10018,13 +10042,13 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311024",
-      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
       912172.6
      ],
      [
       "google",
       "20856311021",
-      "adcom_ucorpas_gg_acq_search_pregrado-musica-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-musica-2027-1",
       910881.16
      ],
      [
@@ -10072,31 +10096,31 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311039",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2027-1",
       377908.76
      ],
      [
       "google",
       "22845714416",
-      "adcom_ucorpas_gg_acq_search_mba",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
       320076.55
      ],
      [
       "google",
       "20856311030",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2027-1",
       291627.96
      ],
      [
       "google",
       "20856311027",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2027-1",
       274020.98
      ],
      [
       "google",
       "23081057941",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2027-1",
       197764.3
      ],
      [
@@ -10134,7 +10158,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311018",
-      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
       10012490.7
      ],
      [
@@ -10146,7 +10170,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20987124610",
-      "adcom_ucorpas_gg_acq_search_premedico-2026-2",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
       6888444.35
      ],
      [
@@ -10158,13 +10182,13 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311024",
-      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
       5778791.62
      ],
      [
       "google",
       "20856311021",
-      "adcom_ucorpas_gg_acq_search_pregrado-musica-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-musica-2027-1",
       3887664.59
      ],
      [
@@ -10182,25 +10206,25 @@ window.SPEND_DATA = {
      [
       "google",
       "22845714416",
-      "adcom_ucorpas_gg_acq_search_mba",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
       1987339.94
      ],
      [
       "google",
       "20856311039",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2027-1",
       1968303.76
      ],
      [
       "google",
       "20856311030",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2027-1",
       1572685.06
      ],
      [
       "google",
       "20856311027",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2027-1",
       1405180.31
      ],
      [
@@ -10280,7 +10304,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20987124610",
-      "adcom_ucorpas_gg_acq_search_premedico-2026-2",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
       11992449.52
      ],
      [
@@ -10310,7 +10334,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311018",
-      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
       2989990.46
      ],
      [
@@ -10322,7 +10346,7 @@ window.SPEND_DATA = {
      [
       "google",
       "24013578608",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-saludfamiliarycomunitaria-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-saludfamiliarycomunitaria-2027-1",
       1978025.87
      ],
      [
@@ -10340,13 +10364,13 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311024",
-      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
       1399570.49
      ],
      [
       "google",
       "22845714416",
-      "adcom_ucorpas_gg_acq_search_mba",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
       1098307.42
      ],
      [
@@ -10382,7 +10406,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311030",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2027-1",
       343930.9
      ],
      [
@@ -10394,7 +10418,7 @@ window.SPEND_DATA = {
      [
       "google",
       "20856311021",
-      "adcom_ucorpas_gg_acq_search_pregrado-musica-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-musica-2027-1",
       175786.7
      ],
      [
@@ -10444,37 +10468,37 @@ window.SPEND_DATA = {
      [
       "google",
       "24013578608",
-      "adcom_ucorpas_gg_acq_search_posgrado-maestria-saludfamiliarycomunitaria-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-saludfamiliarycomunitaria-2027-1",
       1010390.77
      ],
      [
       "google",
       "22845714416",
-      "adcom_ucorpas_gg_acq_search_mba",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
       875686.28
      ],
      [
       "google",
       "20987124610",
-      "adcom_ucorpas_gg_acq_search_premedico-2026-2",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
       829142.15
      ],
      [
       "google",
       "20856311018",
-      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
       693738.3
      ],
      [
       "google",
       "20856311024",
-      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2026-2",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
       683771.63
      ],
      [
       "google",
       "20856311030",
-      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2026-2",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2027-1",
       532367.44
      ],
      [
@@ -10593,73 +10617,151 @@ window.SPEND_DATA = {
       "google",
       "21334639191",
       "adcom_ucorpas_gg_acq_search_pregrado-medicina-2027-1",
-      4622514.34
+      7566518.26
      ],
      [
       "meta",
       "120251120987530043",
       "adcom_ucorpas_fb_acq_landing_meta_general-posgrados-2027-1",
-      1685721.0
-     ],
-     [
-      "google",
-      "24395778478",
-      "adcom_ucorpas_gg_acq_search_general_pregrados-2027-1",
-      1251707.04
+      3087143.0
      ],
      [
       "meta",
       "120226861113850043",
       "adcom_ucorpas_fb_acq_landing_meta_pregrado-medicina-2027-1",
-      1168312.0
+      2121437.0
      ],
      [
       "google",
-      "24384621003",
-      "adcom_ucorpas_gg_acq_search_general_posgrados-2027-1",
-      1070762.28
+      "24395778478",
+      "adcom_ucorpas_gg_acq_search_general_pregrados-2027-1",
+      1898173.31
      ],
      [
       "meta",
       "120251064449540043",
       "adcom_ucorpas_fb_acq_landing-video_meta_pregrado-medicina-2027-1",
-      990535.0
-     ],
-     [
-      "meta",
-      "120251118040700043",
-      "adcom_ucorpas_fb_acq_landing-quiz_meta_pregrado-medicina-2027-1",
-      385065.0
+      1834826.0
      ],
      [
       "google",
-      "24384704856",
-      "adcom_ucorpas_gg_acq_dgen_branding_pregrados-2027-1",
-      262022.6
-     ],
-     [
-      "google",
-      "24395866075",
-      "adcom_ucorpas_gg_acq_dgen_branding_posgrados-2027-1",
-      236898.34
-     ],
-     [
-      "meta",
-      "120251120989420043",
-      "adcom_ucorpas_fb_awa_meta_branding-posgrados-2027-1",
-      223022.0
+      "24384621003",
+      "adcom_ucorpas_gg_acq_search_general_posgrados-2027-1",
+      1411622.16
      ],
      [
       "meta",
       "120251120987080043",
       "adcom_ucorpas_fb_acq_landing_meta_general-pregrados-2027-1",
-      126873.0
+      936794.0
+     ],
+     [
+      "google",
+      "20856311018",
+      "adcom_ucorpas_gg_acq_search_pregrado-enfermeria-2027-1",
+      777826.83
+     ],
+     [
+      "meta",
+      "120251118040700043",
+      "adcom_ucorpas_fb_acq_landing-quiz_meta_pregrado-medicina-2027-1",
+      717429.0
+     ],
+     [
+      "google",
+      "24384704856",
+      "adcom_ucorpas_gg_acq_dgen_branding_pregrados-2027-1",
+      472069.95
+     ],
+     [
+      "google",
+      "24395866075",
+      "adcom_ucorpas_gg_acq_dgen_branding_posgrados-2027-1",
+      458078.18
+     ],
+     [
+      "meta",
+      "120251120989420043",
+      "adcom_ucorpas_fb_awa_meta_branding-posgrados-2027-1",
+      433090.0
      ],
      [
       "meta",
       "120251120988640043",
       "adcom_ucorpas_fb_awa_meta_branding-pregrados-2027-1",
-      78614.0
+      405151.0
+     ],
+     [
+      "google",
+      "20856311024",
+      "adcom_ucorpas_gg_acq_search_pregrado-lic-lenguas-extranjeras-2027-1",
+      289896.34
+     ],
+     [
+      "google",
+      "20856311021",
+      "adcom_ucorpas_gg_acq_search_pregrado-musica-2027-1",
+      207883.17
+     ],
+     [
+      "google",
+      "20856311027",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-epidemiologia-2027-1",
+      138621.59
+     ],
+     [
+      "tiktok",
+      "1881022256216081",
+      "adcom_ucorpas_tt_awa_tiktok_branding-posgrados-2027-1",
+      109903.12
+     ],
+     [
+      "tiktok",
+      "1881022267537953",
+      "adcom_ucorpas_tt_awa_tiktok_branding-pregrados-2027-1",
+      109574.96
+     ],
+     [
+      "google",
+      "22609341590",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-medicina-familiar-integral-2027-1",
+      102149.0
+     ],
+     [
+      "google",
+      "20987124610",
+      "adcom_ucorpas_gg_acq_search_premedico-2027-1",
+      82409.4
+     ],
+     [
+      "google",
+      "22845714416",
+      "adcom_ucorpas_gg_acq_search_posgrado-mba-2027-1",
+      78489.18
+     ],
+     [
+      "google",
+      "20856311039",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-salud-publica-2027-1",
+      70464.73
+     ],
+     [
+      "google",
+      "23082082315",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-tafv-2027-1",
+      29488.0
+     ],
+     [
+      "google",
+      "20856311030",
+      "adcom_ucorpas_gg_acq_search_posgrado-especializacion-sgca-2027-1",
+      27223.59
+     ],
+     [
+      "google",
+      "23081057941",
+      "adcom_ucorpas_gg_acq_search_posgrado-maestria-educacion-para-la-salud-2027-1",
+      5288.0
      ]
     ]
    }
