@@ -1,5 +1,5 @@
 window.SPEND_DATA = {
- "generated_at": "2026-11-09T05:19",
+ "generated_at": "2026-11-09T05:25",
  "since": "2025-09-01",
  "until": "2026-11-09",
  "clients": {
@@ -166,9 +166,9 @@ window.SPEND_DATA = {
      "google": 90313050.4
     },
     "2026-11": {
-     "meta": 18247875.0,
-     "tiktok": 18374057.7,
-     "google": 16072326.3
+     "meta": 18249800.0,
+     "tiktok": 18379498.61,
+     "google": 16073822.24
     }
    },
    "campaigns": {
@@ -1453,25 +1453,25 @@ window.SPEND_DATA = {
       "tiktok",
       "1856779037881585",
       "adcom_baloto_tiktok_acq_conversion-registros",
-      12634190.26
+      12637671.23
      ],
      [
       "google",
       "23771945181",
       "adcom_baloto_gg_awa_search_category_trafico_awa_googleads",
-      7772307.68
+      7772499.02
      ],
      [
       "google",
       "23767709733",
       "adcom_baloto_gg_awa_search_competencia_trafico_awa_googleads",
-      5010841.39
+      5011799.39
      ],
      [
       "meta",
       "120223284865130680",
       "adcom_baloto_fb_acq_meta_conversion-acq_influencers_meta",
-      4324219.0
+      4324456.0
      ],
      [
       "meta",
@@ -1483,13 +1483,13 @@ window.SPEND_DATA = {
       "google",
       "23555995864",
       "adcom_baloto_gg_traf_pmax_trafico_traf_googleads",
-      3289177.23
+      3289523.83
      ],
      [
       "tiktok",
       "1879410124717122",
       "adcom_baloto_tiktok_ret_conversion-rmkt-ret_acumulado",
-      2809271.65
+      2809582.03
      ],
      [
       "meta",
@@ -1501,61 +1501,61 @@ window.SPEND_DATA = {
       "meta",
       "120248278061500680",
       "adcom_baloto_fb_act_conversion_cali",
-      1984630.0
+      1985116.0
      ],
      [
       "tiktok",
       "1868190541111394",
       "adcom_miloto_tiktok_ret_conversion-rmkt-ret_miloto",
-      1795297.17
+      1796477.62
      ],
      [
       "meta",
       "120247777758400680",
       "adcom_baloto_fb_act_conversion_promocional-italia",
-      1386769.0
+      1387087.0
      ],
      [
       "meta",
       "120244686627750680",
       "adcom_miloto_fb_ret_conversion-rmkt-ret_miloto",
-      1197055.0
+      1197314.0
      ],
      [
       "meta",
       "120247968281870680",
       "adcom_baloto_fb_awa_alcance_recordaciondemarca",
-      1139193.0
+      1139304.0
      ],
      [
       "tiktok",
       "1878953146799489",
       "adcom_baloto_tiktok_act_conversion_promocional-italia_2",
-      1135298.62
+      1135767.73
      ],
      [
       "meta",
       "120246246531630680",
       "adcom_baloto_fb_ret_conversion-rmkt-ret_cobrodepremios",
-      853718.0
+      853944.0
      ],
      [
       "meta",
       "120240269554840680",
       "adcom_baloto_fb_act_conversion_videos",
-      583241.0
+      583348.0
      ],
      [
       "meta",
       "120238152745210680",
       "adcom_colorloto_fb_ret_conversion-rmkt-ret_acumulado",
-      546016.0
+      546173.0
      ],
      [
       "meta",
       "120231325684940680",
       "adcom_baloto_fb_act_conversion-rmkt-crm_act",
-      479235.0
+      479259.0
      ]
     ]
    }
@@ -1690,8 +1690,8 @@ window.SPEND_DATA = {
      "tiktok": 0.0
     },
     "2026-11": {
-     "meta": 3598.77,
-     "tiktok": 561.04
+     "meta": 3600.62,
+     "tiktok": 561.39
     }
    },
    "campaigns": {
@@ -1794,61 +1794,61 @@ window.SPEND_DATA = {
       "meta",
       "120248207748350656",
       "adcom_megaloto_fb_conv_meta_one-activos",
-      1178.48
+      1179.1
      ],
      [
       "meta",
       "120248282497530656",
       "adcom_megaloto_fb_conv_meta_riesgo",
-      857.25
+      857.71
      ],
      [
       "meta",
       "120248282625860656",
       "adcom_megaloto_fb_conv_meta_nuevos",
-      418.18
+      418.39
      ],
      [
       "meta",
       "120248149964340656",
       "adcom_megaloto_fb_awa_meta_videoviews-awa",
-      402.77
+      402.94
      ],
      [
       "tiktok",
       "1876337946720449",
       "adcom_megaloto_tt_conv_tiktok_cons-tiktok",
-      362.4
+      362.56
      ],
      [
       "meta",
       "120248207356750656",
       "adcom_megaloto_fb_conv_meta_cons-meta",
-      352.17
+      352.4
      ],
      [
       "meta",
       "120248207032060656",
       "adcom_megaloto_fb_awa_meta_trafico-awa",
-      224.04
+      224.11
      ],
      [
       "meta",
       "120248168705980656",
       "adcom_megaloto_fb_awa_meta_interaccion_rrss",
-      165.88
+      165.97
      ],
      [
       "tiktok",
       "1881117051894977",
       "adcom_megaloto_tt_conv_tiktok_conversion",
-      118.73
+      118.85
      ],
      [
       "tiktok",
       "1881117047068993",
       "adcom_megaloto_tt_awa_tiktok_video-views-awa",
-      79.91
+      79.98
      ]
     ]
    }
@@ -1939,7 +1939,7 @@ window.SPEND_DATA = {
      "meta": 12805436.0
     },
     "2026-11": {
-     "meta": 4219006.0
+     "meta": 4219344.0
     }
    },
    "campaigns": {
@@ -2288,19 +2288,19 @@ window.SPEND_DATA = {
       "meta",
       "120228286141930336",
       "4. Adcom - Campaña Conversiones  - Solicitud credito",
-      2878505.0
+      2878764.0
      ],
      [
       "meta",
       "120227756872800336",
       "3. Adcom - Campaña Conversiones  - Inicio inscripción",
-      1138054.0
+      1138114.0
      ],
      [
       "meta",
       "120250296514630336",
       "7. Adcom - Remarketing CRM - Solicitud credito",
-      202447.0
+      202466.0
      ]
     ]
    }
@@ -2407,8 +2407,8 @@ window.SPEND_DATA = {
      "google": 4144983.0
     },
     "2026-11": {
-     "meta": 814942.0,
-     "google": 398242.8
+     "meta": 815145.0,
+     "google": 397857.87
     }
    },
    "campaigns": {
@@ -2851,19 +2851,19 @@ window.SPEND_DATA = {
       "meta",
       "120246958601260544",
       "adcom_lasalle_meta_conv_campaña-todos",
-      458253.0
+      458339.0
      ],
      [
       "google",
       "23229352285",
       "adcom_lasalle_gg_conv_search_campaña-general-institucional",
-      398242.8
+      397857.87
      ],
      [
       "meta",
       "120249711860260544",
       "adcom_lasalle_meta_conv_form_campaña_all",
-      356689.0
+      356806.0
      ]
     ]
    }
@@ -2990,8 +2990,8 @@ window.SPEND_DATA = {
      "google": 11992946.69
     },
     "2026-11": {
-     "meta": 1251834.0,
-     "google": 5078792.38
+     "meta": 1252032.0,
+     "google": 5081553.52
     }
    },
    "campaigns": {
@@ -8056,7 +8056,7 @@ window.SPEND_DATA = {
       "meta",
       "120213974538370332",
       "1.1. PosgradosProyectos_Carrusel_Meta_UPB Virtual",
-      160003.0
+      160017.0
      ],
      [
       "meta",
@@ -8074,19 +8074,19 @@ window.SPEND_DATA = {
       "meta",
       "120213973594440332",
       "1.4. Educación_Carrusel_Meta_UPB Virtual",
-      152730.0
+      152773.0
+     ],
+     [
+      "google",
+      "22365562513",
+      "1.23 Maestría en Innovación Educativa",
+      132076.13
      ],
      [
       "google",
       "22380311486",
       "1.25 Maestría Filosofía",
       129984.69
-     ],
-     [
-      "google",
-      "22365562513",
-      "1.23 Maestría en Innovación Educativa",
-      129356.13
      ],
      [
       "google",
@@ -8230,7 +8230,7 @@ window.SPEND_DATA = {
       "meta",
       "120254073366310332",
       "2.3 Especializacion Educacion para profesionales de la salud_Carrusel_Meta_UPB Virtual",
-      117358.0
+      117359.0
      ],
      [
       "google",
@@ -8296,25 +8296,25 @@ window.SPEND_DATA = {
       "meta",
       "120254537819790332",
       "UPB VIRTUAL - EVENTO - Maestría Ciencia de datos Nov 17",
-      82302.0
+      82413.0
      ],
      [
       "meta",
       "120211419503660332",
       "1.9.3 IngenieríaSoftware_Post_Meta_UPB Virtual",
-      67944.0
+      67965.0
      ],
      [
       "google",
       "22399044850",
       "1.19 Maestría Marketing digital",
-      58330.57
+      58371.71
      ],
      [
       "meta",
       "120211942008220332",
       "1.9.5 AdministraciónEmpresas_Post_Meta_UPB Virtual",
-      57624.0
+      57632.0
      ],
      [
       "meta",
@@ -8492,9 +8492,9 @@ window.SPEND_DATA = {
      "tiktok": 0.0
     },
     "2026-11": {
-     "meta": 9537144.0,
-     "google": 13616201.69,
-     "tiktok": 219478.08
+     "meta": 9539095.0,
+     "google": 13616485.39,
+     "tiktok": 219558.54
     }
    },
    "campaigns": {
@@ -10623,13 +10623,13 @@ window.SPEND_DATA = {
       "meta",
       "120251120987530043",
       "adcom_ucorpas_fb_acq_landing_meta_general-posgrados-2027-1",
-      3087503.0
+      3088395.0
      ],
      [
       "meta",
       "120226861113850043",
       "adcom_ucorpas_fb_acq_landing_meta_pregrado-medicina-2027-1",
-      2121437.0
+      2121752.0
      ],
      [
       "google",
@@ -10641,7 +10641,7 @@ window.SPEND_DATA = {
       "meta",
       "120251064449540043",
       "adcom_ucorpas_fb_acq_landing-video_meta_pregrado-medicina-2027-1",
-      1834877.0
+      1835009.0
      ],
      [
       "google",
@@ -10653,7 +10653,7 @@ window.SPEND_DATA = {
       "meta",
       "120251120987080043",
       "adcom_ucorpas_fb_acq_landing_meta_general-pregrados-2027-1",
-      937565.0
+      937938.0
      ],
      [
       "google",
@@ -10665,31 +10665,31 @@ window.SPEND_DATA = {
       "meta",
       "120251118040700043",
       "adcom_ucorpas_fb_acq_landing-quiz_meta_pregrado-medicina-2027-1",
-      717429.0
+      717475.0
      ],
      [
       "google",
       "24384704856",
       "adcom_ucorpas_gg_acq_dgen_branding_pregrados-2027-1",
-      472069.95
+      472154.47
      ],
      [
       "google",
       "24395866075",
       "adcom_ucorpas_gg_acq_dgen_branding_posgrados-2027-1",
-      458078.18
+      458277.36
      ],
      [
       "meta",
       "120251120989420043",
       "adcom_ucorpas_fb_awa_meta_branding-posgrados-2027-1",
-      433124.0
+      433196.0
      ],
      [
       "meta",
       "120251120988640043",
       "adcom_ucorpas_fb_awa_meta_branding-pregrados-2027-1",
-      405209.0
+      405330.0
      ],
      [
       "google",
@@ -10713,13 +10713,13 @@ window.SPEND_DATA = {
       "tiktok",
       "1881022256216081",
       "adcom_ucorpas_tt_awa_tiktok_branding-posgrados-2027-1",
-      109903.12
+      109940.25
      ],
      [
       "tiktok",
       "1881022267537953",
       "adcom_ucorpas_tt_awa_tiktok_branding-pregrados-2027-1",
-      109574.96
+      109618.29
      ],
      [
       "google",
