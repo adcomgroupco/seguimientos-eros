@@ -3,15 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Seguimiento de presupuesto y consumo de Baloto, Megaloto, RIS, La Salle, UPB y Corpas.">
+  <meta name="description" content="Portal de clientes: presupuesto, KPIs, pendientes, bitácora y links a los repos de cada cuenta.">
   <meta name="robots" content="noindex, nofollow">
   <meta name="theme-color" content="#f4f4f1">
-  <title>Seguimientos de presupuesto</title>
+  <title>Portal de clientes</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
   <link rel="stylesheet" href="assets/css/adcom.css">
   <link rel="stylesheet" href="assets/css/master.css">
   <link rel="stylesheet" href="assets/css/seguimiento.css">
+  <link rel="stylesheet" href="assets/css/bitacora.css">
   <script defer src="assets/js/adcom.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
   <script src="data/hoja_baloto.js"></script>
@@ -22,6 +23,8 @@
   <script src="data/hoja_ris.js"></script>
   <script src="data/consumo_plataformas.js"></script>
   <script src="assets/js/hoja.js"></script>
+  <script src="data/bitacora.js"></script>
+  <script src="assets/js/clientes.js"></script>
 </head>
 <body>
 <a class="skip-link" href="#top">Ir al estado de las cuentas</a>
@@ -29,6 +32,8 @@
 <header class="masthead" data-suelo="tinta">
   <a class="wordmark" href="index.html"><i></i>Seguimientos <span>ADCOM</span></a>
   <nav aria-label="Secciones">
+    <a href="#clientes">Clientes</a>
+    <a href="#pendientes">Pendientes</a>
     <a href="#estado">Estado</a>
     <a href="#cerrado">Mes cerrado</a>
     <a href="#cuentas">Seguimientos</a>
@@ -40,14 +45,35 @@
 
 <section class="hero" data-suelo="tinta">
  <div class="opening wrap">
-  <h1>Presupuesto y <em>consumo</em></h1>
-  <p class="lede">Cómo va cada cuenta frente a su presupuesto del mes, con la alerta que más pesa. Se lee en vivo de la hoja de seguimiento y se cruza con el consumo real de Meta, Google Ads y TikTok.</p>
+  <h1>Clientes, presupuesto y <em>pendientes</em></h1>
+  <p class="lede">Cada cliente con su presupuesto del mes, KPIs, pendientes, último movimiento y el acceso a su master o index. El presupuesto se lee en vivo de la hoja de seguimiento; KPIs, pendientes e histórico salen de la bitácora de cada cliente.</p>
   <nav class="categorias" aria-label="Estado de las cuentas" id="conteo">
     <a href="#estado">Revisar <b>·</b></a>
     <a href="#estado">Atención <b>·</b></a>
     <a href="#estado">En ritmo <b>·</b></a>
   </nav>
  </div>
+</section>
+
+<section class="grupo wrap" id="clientes">
+  <div class="grupo-head">
+    <h2>Clientes</h2>
+    <p id="clientes-sub">Presupuesto del mes, KPIs, pendientes y links de cada cuenta.</p>
+  </div>
+  <div class="clientes" id="clientes-grid"><p class="cargando">Leyendo bitácoras y hoja de seguimiento…</p></div>
+</section>
+
+<section class="grupo wrap" id="pendientes">
+  <div class="grupo-head">
+    <h2>Pendientes por cliente</h2>
+    <p>Todo lo abierto en las bitácoras, en un solo lugar.</p>
+  </div>
+  <div class="estado-wrap">
+    <table class="estado pend-tabla">
+      <thead><tr><th>Cliente</th><th class="r">#</th><th>Pendientes</th><th>Último movimiento</th><th></th></tr></thead>
+      <tbody id="pend-body"></tbody>
+    </table>
+  </div>
 </section>
 
 <div class="franja" data-suelo="tinta">
@@ -94,6 +120,7 @@
   <dl>
     <dt>Presupuesto</dt><dd>Hoja de seguimiento de presupuesto, una pestaña por cuenta. Si la hoja no responde se usa la última copia guardada.</dd>
     <dt>Consumo real</dt><dd id="api-dd">APIs de Meta, Google Ads y TikTok.</dd>
+    <dt>Bitácoras</dt><dd id="bit-dd">Meta-Ads-CLI/bitacora/&lt;cliente&gt;.md: cuentas, KPIs, pendientes, chats e histórico.</dd>
     <dt>Actualizar</dt><dd>En Meta-Ads-CLI: <code>python tools/update_seguimientos.py</code>, y luego subir los cambios con GitHub Desktop.</dd>
     <dt>Ritmo</dt><dd>Pacing = consumo ÷ esperado a la fecha. Verde ±10%, ámbar ±25%, rojo fuera de eso.</dd>
   </dl>
@@ -171,8 +198,26 @@
   }).join('');
   document.querySelectorAll('#cerrado-body tr.fila').forEach(r => r.onclick = e => { if (!e.target.closest('a')) location.href = r.dataset.href });
 
+  // ── Clientes (bitácoras) ─────────────────────────────────────────────
+  const C = window.CLI, B = C.B;
+  const seg = {};
+  datos.forEach(x => { const s = B.orden.find(k => C.segKey(B.clientes[k]) === x.D.key); if (s) seg[s] = x; });
+  document.getElementById('clientes-grid').innerHTML = B.orden.map(k => C.card(B.clientes[k], seg[k])).join('');
+  document.getElementById('pend-body').innerHTML = B.orden.map(k => {
+    const c = B.clientes[k], h = c.historico[0];
+    return `<tr class="fila" data-href="cliente.html?c=${encodeURIComponent(k)}">
+      <td class="cuenta"><b>${esc(c.nombre)}</b><small>Bitácora al ${esc(c.actualizado)}</small></td>
+      <td class="r"><span class="pill ${c.pendientes.length ? 'p-mid' : 'p-pos'}">${c.pendientes.length}</span></td>
+      <td>${c.pendientes.length ? `<ul>${c.pendientes.map(p => `<li>${C.inline(p)}</li>`).join('')}</ul>` : '<span class="t-mute">—</span>'}</td>
+      <td><small>${h ? `<b>${esc(h.fecha)}</b><br>${C.inline(h.items[0] || '')}` : '—'}</small></td>
+      <td><a class="ir" href="cliente.html?c=${encodeURIComponent(k)}">Bitácora →</a></td></tr>`;
+  }).join('');
+  document.querySelectorAll('#pend-body tr.fila').forEach(r => r.onclick = e => { if (!e.target.closest('a')) location.href = r.dataset.href });
+  const totPend = B.orden.reduce((a, k) => a + B.clientes[k].pendientes.length, 0);
+  document.getElementById('clientes-sub').textContent = `${B.orden.length} clientes · ${totPend} pendientes abiertos · bitácoras generadas el ${fDate(B.generado || '')}.`;
+
   const n = s => datos.filter(x => x.A.estado.txt === s).length;
-  document.getElementById('conteo').innerHTML = ['Revisar', 'Atención', 'En ritmo'].map(s => `<a href="#estado">${s} <b>${n(s)}</b></a>`).join('');
+  document.getElementById('conteo').innerHTML = `<a href="#clientes">Clientes <b>${B.orden.length}</b></a><a href="#pendientes">Pendientes <b>${totPend}</b></a>` + ['Revisar', 'Atención', 'En ritmo'].map(s => `<a href="#estado">${s} <b>${n(s)}</b></a>`).join('');
   const corte = datos.map(x => x.D.corte).sort()[0];
   document.getElementById('stamp').textContent = 'Corte ' + fDate(corte) + '/' + corte.slice(0, 4);
   const api = window.SPEND_DATA;

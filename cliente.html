@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ficha del cliente: presupuesto, KPIs, pendientes, links y bitácora completa.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#f4f4f1">
+  <title>Ficha de cliente</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/adcom.css">
+  <link rel="stylesheet" href="assets/css/master.css">
+  <link rel="stylesheet" href="assets/css/seguimiento.css">
+  <link rel="stylesheet" href="assets/css/bitacora.css">
+  <script defer src="assets/js/adcom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+  <script src="data/hoja_baloto.js"></script>
+  <script src="data/hoja_megaloto.js"></script>
+  <script src="data/hoja_lasalle.js"></script>
+  <script src="data/hoja_upb.js"></script>
+  <script src="data/hoja_corpas.js"></script>
+  <script src="data/hoja_ris.js"></script>
+  <script src="data/consumo_plataformas.js"></script>
+  <script src="assets/js/hoja.js"></script>
+  <script src="data/bitacora.js"></script>
+  <script src="assets/js/clientes.js"></script>
+</head>
+<body>
+<header class="masthead" data-suelo="tinta">
+  <a class="wordmark" href="index.html"><i></i>Clientes <span>ADCOM</span></a>
+  <nav aria-label="Clientes" id="nav-cli"></nav>
+  <span class="stamp" id="stamp">—</span>
+</header>
+
+<main id="top">
+  <section class="grupo wrap">
+    <p><a class="ir" href="index.html#clientes">← Todos los clientes</a></p>
+    <div class="ficha-cli">
+      <article class="md" id="md"><p class="cargando">Cargando bitácora…</p></article>
+      <aside id="lateral"></aside>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>Clientes · ADCOM</span>
+  <span>Bitácora generada desde Meta-Ads-CLI</span>
+</footer>
+
+<script>
+(async () => {
+  const C = window.CLI, B = C.B;
+  const slug = new URLSearchParams(location.search).get('c') || B.orden[0];
+  const c = B.clientes[slug];
+  document.getElementById('nav-cli').innerHTML = B.orden.map(k =>
+    `<a href="cliente.html?c=${encodeURIComponent(k)}"${k === slug ? ' aria-current="page"' : ''}>${C.esc(B.clientes[k].nombre)}</a>`).join('');
+  if (!c) { document.getElementById('md').innerHTML = '<p>No existe ese cliente en las bitácoras.</p>'; return; }
+  document.title = `${c.nombre} · Clientes`;
+  document.getElementById('stamp').textContent = 'Bitácora ' + (c.actualizado || '');
+
+  // bitácora completa. Los links relativos apuntan a archivos de Meta-Ads-CLI, que no está publicado: se dejan como texto.
+  const box = document.getElementById('md');
+  box.innerHTML = marked.parse(c.markdown);
+  box.querySelectorAll('a').forEach(a => {
+    const h = a.getAttribute('href') || '';
+    if (/^https?:/.test(h)) { a.target = '_blank'; a.rel = 'noopener'; }
+    else a.replaceWith(Object.assign(document.createElement('code'), {textContent: a.textContent}));
+  });
+  box.querySelectorAll('table').forEach(t => { const w = document.createElement('div'); w.className = 'tabla'; t.replaceWith(w); w.appendChild(t); });
+
+  // lateral: presupuesto del mes, KPIs, pendientes y links
+  const seg = (await C.seguimientos([slug]))[slug];
+  const estado = seg ? `<span class="pill ${seg.A.estado.cls}">${C.esc(seg.A.estado.txt)}</span>` : '';
+  document.getElementById('lateral').innerHTML = `
+    <div class="cli">
+      <div class="cli-h"><div><h3>${C.esc(c.nombre)}</h3><small>${C.esc(c.moneda || '')}</small></div>${estado}</div>
+      ${C.ppto(c, seg)}
+      ${C.pendientes(c, 20)}
+      ${C.links(c, {bitacora: false})}
+    </div>`;
+})();
+</script>
+</body>
+</html>
