@@ -70,13 +70,15 @@
   });
   box.querySelectorAll('table').forEach(t => { const w = document.createElement('div'); w.className = 'tabla'; t.replaceWith(w); w.appendChild(t); });
 
-  // lateral: presupuesto del mes, KPIs, pendientes y links
+  // lateral: presupuesto del mes, restricciones, por verificar, pendientes y links
   const seg = (await C.seguimientos([slug]))[slug];
   const estado = seg ? `<span class="pill ${seg.A.estado.cls}">${C.esc(seg.A.estado.txt)}</span>` : '';
   document.getElementById('lateral').innerHTML = `
     <div class="cli">
       <div class="cli-h"><div><h3>${C.esc(c.nombre)}</h3><small>${C.esc(c.moneda || '')}</small></div>${estado}</div>
       ${C.ppto(c, seg)}
+      ${C.restricciones(c)}
+      ${C.porVerificar(c, 20)}
       ${C.pendientes(c, 20)}
       ${C.links(c, {bitacora: false})}
     </div>`;

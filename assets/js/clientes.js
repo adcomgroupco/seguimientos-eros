@@ -55,6 +55,25 @@
     }${resto > 0 ? `<li class="mas">+${resto} más en la bitácora</li>` : ''}</ul></div>`;
   }
 
+  // «Por verificar» de la bitácora: fecha + criterio; las vencidas en rojo
+  function porVerificar(c, max = 3) {
+    const V = c.por_verificar || [];
+    if (!V.length) return '';
+    const venc = V.filter(v => v.vencida).length, resto = V.length - max;
+    return `<div><h4>Por verificar · ${V.length}${venc ? ` <span class="pill p-neg">${venc} vencida${venc > 1 ? 's' : ''}</span>` : ''}</h4><ul class="pend verif">${
+      V.slice(0, max).map(v => `<li${v.vencida ? ' class="vencida"' : ''}><b>${esc(v.fecha)}</b> · ${inline(v.texto)}</li>`).join('')
+    }${resto > 0 ? `<li class="mas">+${resto} más en la bitácora</li>` : ''}</ul></div>`;
+  }
+
+  // «Restricciones del cliente»: lo que el cliente pidió y manda sobre cualquier plan
+  function restricciones(c) {
+    const R = c.restricciones || [];
+    if (!R.length) return '';
+    return `<div><h4>Restricciones del cliente · ${R.length}</h4><ul class="pend">${
+      R.map(r => `<li><b>${esc(r[0])}</b> · ${inline(r[1] || '')}${r[3] ? ` <span class="t-mute">(${inline(r[3])})</span>` : ''}</li>`).join('')
+    }</ul></div>`;
+  }
+
   function ultimo(c) {
     const h = c.historico[0];
     if (!h) return '';
@@ -67,6 +86,7 @@
       <div class="cli-h"><div><h3><a href="cliente.html?c=${encodeURIComponent(c.slug)}">${esc(c.nombre)}</a></h3><small>${esc(c.descripcion)}</small></div>${estado}</div>
       ${ppto(c, seg)}
       ${kpis(c)}
+      ${porVerificar(c)}
       ${pendientes(c)}
       ${ultimo(c)}
       ${links(c)}
@@ -85,5 +105,5 @@
     return out;
   }
 
-  window.CLI = {B, esc, inline, segKey, links, ppto, kpis, pendientes, ultimo, card, seguimientos};
+  window.CLI = {B, esc, inline, segKey, links, ppto, kpis, pendientes, porVerificar, restricciones, ultimo, card, seguimientos};
 })();

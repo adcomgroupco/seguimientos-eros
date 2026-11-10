@@ -71,3 +71,6 @@
   .cli{padding:16px}
   .cli-ppto{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
+
+.verif li.vencida{color:#DC2626}
+.verif li.vencida::before{border-color:#DC2626;background:#FEE2E2}
