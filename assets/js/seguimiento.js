@@ -122,7 +122,7 @@
     const th = ['Campaña', ...extra, 'Medio', 'Estado', 'Fechas', 'Presupuesto', 'Consumo', 'Avance', 'Pacing', 'Por consumir', 'Diario sug.'];
     const nTxt = 4 + extra.length;
     $('camp-head').innerHTML = `<tr>${th.map((h, i) => `<th class="${i > nTxt ? 'r' : ''}">${h}</th>`).join('')}</tr>`;
-    const estCls = e => e === 'Activado' ? 'p-pos' : e === 'Pendiente' ? 'p-mid' : e === 'Detenido' ? 'p-neg' : 'p-off';
+    const estCls = e => e === 'Activado' ? 'p-pos' : e === 'Pendiente' || e === 'Reservado' ? 'p-mid' : e === 'Detenido' ? 'p-neg' : 'p-off';
     const bloques = [...new Set(rows.map(f => f.bloque))];
     const corta = (s, n) => s.length > n ? s.slice(0, n - 2) + '…' : s;
     let html = '';
